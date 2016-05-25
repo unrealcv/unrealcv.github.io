@@ -44,3 +44,5 @@ We provide python/MATLAB wrapper to interact with the virtual scene. A more deta
 `python demo_client.py` to run a demo script. This demo will show message sent from the virtual scene and can also send commands. How to use python script to generate an image dataset, see [generate dataset](tutorials/generate_dataset.html) for a step-by-step instruction.
 
 The python client is documented [here](python_client.html).
+
+Understand the command system.
