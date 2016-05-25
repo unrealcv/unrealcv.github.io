@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: single
 title: Command Cheatsheet
+permalink: /commands.html
 ---
 
+This page is generated from the binary. To see the update-to-date help message, use `cd scripts; python generate_help.py`.
 
 
 

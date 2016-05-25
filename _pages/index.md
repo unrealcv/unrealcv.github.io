@@ -1,13 +1,23 @@
 ---
 layout: single
-title: Homepage
+permalink: /index.html
 ---
 
 # UnrealCV
 <!-- What is UnrealCV -->
 Unreal CV is a project to use photo-realistic game for computer vision research. In this project, we extend games to provide annotation for the virtual scene. We also provide python/MATLAB code to interact with the virtual scene.
 
-![teaser](./realistic_rendering.png)
+![teaser](/realistic_rendering.png)
+
+![pipeline](/images/pipeline.svg)
+
+<!-- <img src="/images/pipeline.svg"></img> -->
+<!-- <object data="/images/pipeline.svg" type="image/svg+xml">
+  Your browser does not support svg
+</object>
+<object width="100px" data="/images/pipeline.svg" type="image/svg+xml">
+</object> -->
+<!-- <embed type="image/svg+xml" src="/images/pipeline.svg"/> -->
 
 We provide a few scenes modified from Unreal Engine demos or open source game. A more complete list can be found [here](demo_list.md). The digital content belongs to the original author.
 
@@ -46,3 +56,7 @@ We provide python/MATLAB wrapper to interact with the virtual scene. A more deta
 The python client is documented [here](python_client.html).
 
 Understand the command system.
+
+# Citation
+
+If you found this project useful for your research. Please cite our paper <>.

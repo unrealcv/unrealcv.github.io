@@ -14,5 +14,9 @@ main:
   #
   # - title: "Sample Collections"
   #   url: https://mmistakes.github.io/minimal-mistakes/collection-archive/
-  - title: "Commands"
-    url: commands.html
+  - title: "Tutorials"
+    url: /tutorial
+  - title: "Reference"
+    url: /reference
+  - title: "About"
+    url: /about
