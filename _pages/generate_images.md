@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Generate a dataset
-permalink: generate_images.html
+permalink: generate_images_old.html
 ---
 
 We provide an example python script to generate a bunch of images from the virtual scene. The script is in `client/scripts/batch_rendering.py`
@@ -13,6 +13,24 @@ Run `python batch_rendering.py camera_info.txt` to generate a bunch of images.
 In the `render_frame` function
 
 # Read camera information
+
+```python
+with open(args.logfile, 'r') as f:
+    lines = f.readlines()
+# Parse camera location and rotation from file
+camera_pos = []
+for line_id in range(len(lines)):
+    line = lines[line_id].strip() # Remove \n at the end
+    if line_id % 3 == 0: # filename
+        pass
+    elif line_id % 3 == 1: # location
+        location = [float(v) for v in line.split(' ')]
+    elif line_id % 3 == 2: # Rotation
+        rotation = [float(v) for v in line.split(' ')]
+        camera_pos.append((location, rotation))
+```
+
+# Render image
 
 ```python
 response = client.request('vset /camera/0/location %.3f %.3f %.3f' % (loc[0], loc[1], loc[2]))
