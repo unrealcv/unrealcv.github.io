@@ -5,11 +5,21 @@ permalink: /index.html
 
 # UnrealCV
 <!-- What is UnrealCV -->
-Unreal CV is a project to use photo-realistic game for computer vision research. In this project, we extend games to provide annotation for the virtual scene. We also provide python/MATLAB code to interact with the virtual scene.
+UnrealCV is a project to use photo-realistic game for computer vision research. In this project, we extend games to provide annotation for the virtual scene. We also provide python/MATLAB code to interact with the virtual scene.
 
-![teaser](/realistic_rendering.png)
+Unreal Engine is one of the best game engines, it provides excellent rendering power. Naive Physics. Unreal Engine is open source and creates enormous possibility. Games designed using Unreal Engine can be extended by UnrealCV. We will provide a few compiled examples and show how to extend a game yourself.
+
+UnrealCV is a project to bridge game industry with computer vision research community. Games are designed for players. We compile UnrealCV server code inside a game to make it able to communicate with our clients.
 
 ![pipeline](/images/pipeline.svg)
+
+- List of Compiled Games <!-- create a model zoo for it -->
+- [UnrealCV Server](server.html)
+- [UnrealCV Client](client.html)
+- Command and Response format
+
+<!--![teaser](/realistic_rendering.png)-->
+
 
 <!-- <img src="/images/pipeline.svg"></img> -->
 <!-- <object data="/images/pipeline.svg" type="image/svg+xml">
@@ -57,6 +67,12 @@ The python client is documented [here](python_client.html).
 
 Understand the command system.
 
+# Feature
+
+Cross-platform, Easy to integrate with existing code, Extensible.
+
 # Citation
 
 If you found this project useful for your research. Please cite our paper <>.
+
+If you have any suggestion or want to need help of using this in your project you can contact us in [Gitter]() or through email.

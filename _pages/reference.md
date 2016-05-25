@@ -5,6 +5,6 @@ permalink: /reference
 ---
 - [Command List](/commands.html)
 
-- [Python Client](/python.html)
+- [Python Client](/client.html#python)
 
-- MATLAB Client
+- [MATLAB Client](/client.html#matlab)
