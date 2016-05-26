@@ -22,7 +22,7 @@ More commands can be found in [commands page](/commands.html)
 
 More elaborate examples can be found in these tutorials:
 
-- [Generate Dataset](generate_images.html)
+- [Generate Dataset](ipynb_generate_images.html)
 - [Integrate with faster RCNN](faster_rcnn.html)
 
 # MATLAB Client

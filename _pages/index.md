@@ -29,9 +29,9 @@ UnrealCV is a project to bridge game industry with computer vision research comm
 </object> -->
 <!-- <embed type="image/svg+xml" src="/images/pipeline.svg"/> -->
 
-We provide a few scenes modified from Unreal Engine demos or open source game. A more complete list can be found [here](demo_list.md). The digital content belongs to the original author.
+We provide a few scenes modified from Unreal Engine demos or open source game. A more complete list can be found [here](games.html). The digital content belongs to the original author.
 
-Here we will show how to use the binaries we provided. If you want to make our own scene interactable, please read about how to use the [plugin system](plugin_howto.md).    
+Here we will show how to use the binaries we provided. If you want to make our own scene interactable, please read about how to use the [plugin system](server.html).    
 
 Here we will use RealisticRendering as an example. RealisticRendering is a demo created by Epic Games to showcase the rendering ability of UnrealEngine.
 
@@ -52,18 +52,18 @@ The virtual scene can be controlled in a very simple way. The client can send a 
 
 The scene is interactable with a predefined set of commands. Use **`** key to invoke the console built-in. Type it twice to get the command windows.
 
-<img src="keyboard.png" width="100">
+<img src="/images/keyboard.png" width="100" alt="Key to invoke console">
 
 Try a simple command `vset /mode/depth` to show the depth of this scene and use `vset /mode/lit` to switch back to normal.
 
-A complete list of available commands can be found in [command cheatsheet](commands.html). A more detailed explanation of the command system can be found [here](command_design.md)
+A complete list of available commands can be found in [command cheatsheet](/commands.html). A more detailed explanation of the command system can be found [here](/commands.html)
 
 ## Connect with the program  
-We provide python/MATLAB wrapper to interact with the virtual scene. A more detailed description of the wrapper is documented in [here](wrapper.md).
+We provide python/MATLAB wrapper to interact with the virtual scene. A more detailed description of the wrapper is documented in [here](/client.html).
 
-`python demo_client.py` to run a demo script. This demo will show message sent from the virtual scene and can also send commands. How to use python script to generate an image dataset, see [generate dataset](tutorials/generate_dataset.html) for a step-by-step instruction.
+`python demo_client.py` to run a demo script. This demo will show message sent from the virtual scene and can also send commands. How to use python script to generate an image dataset, see [generate dataset](ipynb_generate_images.html) for a step-by-step instruction.
 
-The python client is documented [here](python_client.html).
+The python client is documented [here](/client.html#python).
 
 Understand the command system.
 

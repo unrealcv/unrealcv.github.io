@@ -7,9 +7,10 @@ task :test do
   # HTMLProofer.check_directory("./_site", opts).run
   # HTMLProofer.check_directory("./_site", {
   HTMLProofer.check_directories(["./_site"], {
-    :alt_ignore => [/.*/],
-    :disable_external => false,
+    # :alt_ignore => [/.*/],
+    # :disable_external => false,
     :file_ignore => [/.*ipynb_.*html/],
+    :url_ignore => [/.*github.com\/qiuwch\/unrealcv/],
     # :empty_alt_ignore => true,
     # :checks_to_ignore => ["ImageCheck"],
   }).run
