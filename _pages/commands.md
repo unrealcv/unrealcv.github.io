@@ -1,6 +1,5 @@
 ---
 layout: single
-title: Command Cheatsheet
 permalink: /commands.html
 ---
 
@@ -18,11 +17,12 @@ Try a simple command `vset /mode/depth` to show the depth of this scene and use 
 
 # Command cheatsheet
 
-<div class='warning'>
-  This command list is growing and subject to change
-</div>
+<blockquote class='bg-warning'>
+  This command list is growing and subject to change<br>
+  Leave a command in the [Issues](github_issue) to tell us what functions are useful for your project.<br>
+  This page is generated from the binary. To see the update-to-date help message.
+</blockquote>
 
-This page is generated from the binary. To see the update-to-date help message.
 
 Use `cd scripts; python generate_help.py`.
 

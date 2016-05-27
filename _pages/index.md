@@ -4,6 +4,9 @@ permalink: /index.html
 ---
 
 # UnrealCV
+
+<!-- put a teaser video here -->
+
 <!-- What is UnrealCV -->
 UnrealCV is a project to use photo-realistic game for computer vision research. In this project, we extend games to provide annotation for the virtual scene. We also provide python/MATLAB code to interact with the virtual scene.
 
@@ -11,9 +14,8 @@ UnrealCV is a project to bridge game industry with computer vision research comm
 
 Unreal Engine is one of the best game engines, it provides excellent rendering power. Naive Physics. Unreal Engine is open source and creates enormous possibility. Games designed using Unreal Engine can be extended by UnrealCV. We will provide a few compiled examples and show how to extend a game yourself.
 
-<!-- put a teaser image here -->
 
-What UnrealCV is doing can be seen from this image. UnrealCV code compiled in the game will start a mini-server to receive commands from client. Any computer vision algorithm can use client code to send commands to control the virtual scene. Examples can be seen from [Generate images](generate_images.html) and [Integrate with RCNN](faster_rcnn) in [Tutorials](tutorial.html).
+What UnrealCV is doing can be seen from this image. UnrealCV code compiled in the game will start a mini-server to receive commands from client. Any computer vision algorithm can use client code to send commands to control the virtual scene. Examples can be seen from [Generate images](ipynb_generate_images.html) and [Integrate with RCNN](faster_rcnn.html) in [Tutorials](tutorial.html).
 
 ![pipeline](images/pipeline.svg)
 
@@ -43,23 +45,7 @@ What UnrealCV is doing can be seen from this image. UnrealCV code compiled in th
 
 # Getting Started
 
-Here we will use RealisticRendering as an example. RealisticRendering is a demo created by Epic Games to showcase the rendering ability of UnrealEngine.
-
-First, download the binaries of this game. [Windows](), [Linux](). (Tested in Ubuntu 14.04)
-
-Unzip it and Run `[Platform]NoEditor/RealisticRendering/Binaries/[Platform]/RealisticRendering`. If the program crash for any reason, you can reported [an issue]().
-
-# Interact with the program
-
-
-
-## Connect with the program  
-
-`python demo_client.py` to run a demo script. This demo will show message sent from the virtual scene and can also send commands. How to use python script to generate an image dataset, see [generate dataset](ipynb_generate_images.html) for a step-by-step instruction.
-
-The python client is documented [here](client.html#python).
-
-Understand the command system.
+[Getting started](getting_started.html)
 
 # Feature
 
