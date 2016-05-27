@@ -1,7 +1,10 @@
 require 'html-proofer'
 
-task :test do
+task :build do
   sh "bundle exec jekyll build"
+end
+
+task :test do
   # HTMLProofer.check_directory("./_site").run
   # disable_external = false
   # HTMLProofer.check_directory("./_site", opts).run
@@ -18,4 +21,16 @@ end
 
 task :s do
   sh "bundle exec jekyll s"
+end
+
+task :testsub do
+  HTMLProofer.check_directories(["./_unrealcv"], {
+    :file_ignore => [/.*ipynb_.*html/],
+    :url_ignore => [/.*github.com\/qiuwch\/unrealcv/],
+  }).run
+end
+
+task :syncsub do
+  sh "bundle exec jekyll build -d ./_unrealcv/unrealcv/ --config ./_config_subfolder.yml"
+  sh "rsync -rav _unrealcv/unrealcv/ weichaoqiu.com:/home/qiuwch/weichaoqiu.com/unrealcv/"
 end
