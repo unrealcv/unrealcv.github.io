@@ -11,7 +11,7 @@ Unreal Engine is one of the best game engines, it provides excellent rendering p
 
 UnrealCV is a project to bridge game industry with computer vision research community. Games are designed for players. We compile UnrealCV server code inside a game to make it able to communicate with our clients.
 
-![pipeline](/images/pipeline.svg)
+![pipeline](images/pipeline.svg)
 
 - List of Compiled Games <!-- create a model zoo for it -->
 - [UnrealCV Server](server.html)
@@ -52,18 +52,18 @@ The virtual scene can be controlled in a very simple way. The client can send a 
 
 The scene is interactable with a predefined set of commands. Use **`** key to invoke the console built-in. Type it twice to get the command windows.
 
-<img src="/images/keyboard.png" width="100" alt="Key to invoke console">
+<img src="images/keyboard.png" width="100" alt="Key to invoke console">
 
 Try a simple command `vset /mode/depth` to show the depth of this scene and use `vset /mode/lit` to switch back to normal.
 
-A complete list of available commands can be found in [command cheatsheet](/commands.html). A more detailed explanation of the command system can be found [here](/commands.html)
+A complete list of available commands can be found in [command cheatsheet](commands.html). A more detailed explanation of the command system can be found [here](commands.html)
 
 ## Connect with the program  
-We provide python/MATLAB wrapper to interact with the virtual scene. A more detailed description of the wrapper is documented in [here](/client.html).
+We provide python/MATLAB wrapper to interact with the virtual scene. A more detailed description of the wrapper is documented in [here](client.html).
 
 `python demo_client.py` to run a demo script. This demo will show message sent from the virtual scene and can also send commands. How to use python script to generate an image dataset, see [generate dataset](ipynb_generate_images.html) for a step-by-step instruction.
 
-The python client is documented [here](/client.html#python).
+The python client is documented [here](client.html#python).
 
 Understand the command system.
 

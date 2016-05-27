@@ -18,7 +18,7 @@ def message_handler(message):
 client = Client(('127.0.0.1', 9000), message_handler)
 response = client.request('vget /camera/0/view') # Capture a frame from the game
 ```
-More commands can be found in [commands page](/commands.html)
+More commands can be found in [commands page](commands.html)
 
 More elaborate examples can be found in these tutorials:
 

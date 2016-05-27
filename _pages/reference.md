@@ -3,8 +3,8 @@ layout: single
 title: Reference
 permalink: /reference
 ---
-- [Command List](/commands.html)
+- [Command List](commands.html)
 
-- [Python Client](/client.html#python)
+- [Python Client](client.html#python)
 
-- [MATLAB Client](/client.html#matlab)
+- [MATLAB Client](client.html#matlab)
