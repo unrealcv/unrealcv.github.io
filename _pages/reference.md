@@ -8,3 +8,5 @@ permalink: /reference
 - [Python Client](client.html#python)
 
 - [MATLAB Client](client.html#matlab)
+
+- [Model zoo](zoo.html)

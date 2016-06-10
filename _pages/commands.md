@@ -7,6 +7,8 @@ permalink: /commands.html
 # The command system
 <!-- Better help system -->
 
+The command system is extended from the built-in Unreal Engine command system.
+
 The virtual scene can be controlled in a very simple way. The client can send a command to the game and game will return a response.
 
 The scene is interactable with a predefined set of commands. Use **`** key to invoke the console built-in. Type it twice to get the command windows.
@@ -28,17 +30,17 @@ Use `cd scripts; python generate_help.py`.
 
 <!-- how to generate a tree -->
 
-| URI                                          | Access  | Description        |
-|:---------------------------------------------|:--------|:-------------------|
-| <b title="/mode">/mode</b>                   | get/set | lit, unlit, normal |
-| /object                                      |         |                    |
-| _/[str]                                      |         |                    |
-| ___<b title="/object/[str]/color">/color</b> | get/set |                    |
-| ___<b title="/object[str]/name">/name</b>    | get     |                    |
-| /camera                                      |         |                    |
-| _/location                                   | get/set | x y z              |
-| _/rotation                                   | get/set | ax el              |
-| _/depth                                      | get     |                    |
+| URI                                          | Access  | Description         |
+|:---------------------------------------------|:--------|:--------------------|
+| vget /camera/[uint]/location                 | get/set | Get camera location |
+| vget /camera/[uint]/rotation                 |         | Get camera rotation |
+| _/[str]                                      |         |                     |
+| ___<b title="/object/[str]/color">/color</b> | get/set |                     |
+| ___<b title="/object[str]/name">/name</b>    | get     |                     |
+| /camera                                      |         |                     |
+| _/location                                   | get/set | x y z               |
+| _/rotation                                   | get/set | ax el               |
+| _/depth                                      | get     |                     |
 
 # Alias
 
