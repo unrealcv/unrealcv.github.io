@@ -3,30 +3,35 @@ layout: single
 permalink: /index.html
 ---
 
-# UnrealCV : Connect Computer Vision to Unreal Engine 4
+<!-- # UnrealCV : Connect Computer Vision to Unreal Engine 4 -->
 
 <!-- put a teaser video here -->
 
 <!-- What is UnrealCV -->
-The goal of UnrealCV is connecting Computer Vision researchers with Unreal Engine 4. [Unreal Engine 4](http://unrealengine.com) is an open source game engine for building high fidelity video games. These photo-realistic images can be helpful for computer vision, robotics and psychophysics.
+
+## UnrealCV
+
+UnrealCV is a tool to help computer vision researchers make use of [Unreal Engine 4 (UE4)](http://unrealengine.com), a most successful game engine for creating photo-realistic video games. UnrealCV can extend a video game and make it accessible to code. High fidelity images from video games can be used to train and test computer vision algorithms. Using UnrealCV, it is easy to generate images and annotation from a video game built using UE4. Moreover, the virtual scene can be controlled to produce images. With the help of UnrealCV, computer vision can navigate and interact in the virtual scene.
 
 <!-- Show some high quality game images. Show image and annotation -->
 <center>
-<img width="400px" src="images/Annotation.png"/>
+<img width="400px" src="images/Annotation.png"/><br>
+Image generated from [RelisticRendering](http://), Normal, Depth and object instance segmentation.
 </center>
 <!-- ![Annotation](images/Annotation.png) -->
 
+<center>
+</center>
 
-<!-- Do so say the importance of this project, leave it to the tech report -->
-<!-- What problem UnrealCV is solving? -->
-Video Games are originally designed to be interactive by human players. We hope computer vision algorithms can be trained and tested in the a virtual world. By creating UnrealCV, we extend a video game. The game can not only controlled by keyboard and mouse, but also controlled by a set of commands. The commands can be used to control the camera, get information from the scene. This makes the an algorithm can easily interact with the video game.
+## Tutorials
 
-<!-- The feature of UnrealCV -->
-UnrealCV starts a TCP server when a game launches and wait for commands. Any program can send plain text command to control the scene or retrieve information. We provide client code for Python and MATLAB. We provide compiled binaries for Windows and Linux. The design of UnrealCV makes it cross-platform, support multiple languages and can be easily extended.
+[How does it work](how_does_it_work.html)
 
-<img width="400px" src="images/pipeline.svg" class="center-block"/>
+[Getting Started](getting_started.html) learn how to use UnrealCV.
 
-See [Getting Started](getting_started.html) to learn how to use UnrealCV.
+[Generate images](generate_images.html) Generate an image dataset with depth, normal and object instance mask annotation.
+
+[Integrate with faster-RCNN](faster_rcnn.html) will show how to use images from a video game for testing.
 
 # Citation
 

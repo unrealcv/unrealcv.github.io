@@ -6,24 +6,6 @@ Unreal Engine is one of the best game engines, it provides excellent rendering p
 
 <!-- Video placeholder -->
 
-What UnrealCV is doing can be seen from this image. UnrealCV code compiled in the game will start a mini-server to receive commands from client. Any computer vision algorithm can use client code to send commands to control the virtual scene. Examples can be seen from [Generate images](ipynb_generate_images.html) and [Integrate with RCNN](faster_rcnn.html) in [Tutorials](tutorial.html).
-
-
-- [List of Compiled Games](games.html) <!-- create a model zoo for it -->
-
-  We provide a few scenes modified from Unreal Engine demos or open source game.  The digital content belongs to the original author.
-
-- [UnrealCV Server](server.html)
-
-  Here we will show how to use the binaries we provided. If you want to make our own scene interactable, please read about how to use the [plugin system](server.html).    
-
-- [UnrealCV Client](client.html)
-
-  We provide python/MATLAB wrapper to interact with the virtual scene. A more detailed description of the wrapper is documented in [here](client.html).
-
-- [Command and Response format](commands.html)
-
-  A complete list of available commands can be found in [command cheatsheet](commands.html). A more detailed explanation of the command system can be found [here](commands.html)
 
 <!-- <img src="/images/pipeline.svg"></img> -->
 <!-- <object data="/images/pipeline.svg" type="image/svg+xml">
@@ -42,3 +24,8 @@ How to use compiled binaries.
 # Feature
 
 Cross-platform, Easy to integrate with existing code, Extensible.
+
+
+<!-- Do so say the importance of this project, leave it to the tech report -->
+<!-- What problem UnrealCV is solving? -->
+Video Games are originally designed to be interactive by human players. We hope computer vision algorithms can be trained and tested in the a virtual world. By creating UnrealCV, we extend a video game. The game can not only controlled by keyboard and mouse, but also controlled by a set of commands. The commands can be used to control the camera, get information from the scene. This makes the an algorithm can easily interact with the video game.

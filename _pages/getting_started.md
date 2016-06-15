@@ -11,15 +11,25 @@ Here we will use RealisticRendering as an example. [RealisticRendering](https://
 
 To follow this instruction, you need to download a version compiled with UnrealCV server. First, download the binaries of this game.
 
-- [Windows](),
-- [Linux]() (Tested in Ubuntu 14.04)
+- [Windows](https://s3-ap-northeast-1.amazonaws.com/unrealcv-scene/realisticrendering-win-20160610.zip),
+- [Linux](https://s3-ap-northeast-1.amazonaws.com/unrealcv-scene/realisticrendering-linux-20160610.zip) (Tested in Ubuntu 14.04)
 - [Mac](https://s3-ap-northeast-1.amazonaws.com/unrealcv-scene/realisticrendering-mac-20160609.zip)
 
 Unzip it and Run `[Platform]NoEditor/RealisticRendering/Binaries/[Platform]/RealisticRendering`. If the program crash for any reason, you can reported [an issue](https://github.com/qiuwch/unrealcv/issues).
 
 Run the binary, you will see the game running like this in a window mode
 
-[screenshot](images/screenshot.png)
+![Startup Screenshot](images/screenshot.png)
+
+Use mouse to look around and use `wasd` to navigate.
+
+At this moment the binary is working as a normal FPS (First Person Shooter) game. We will use client code to interact with this scene.
+
+```
+A few useful shortcut key
+Shift-F1, release mouse capture
+```
+
 
 ## Get the client code.
 

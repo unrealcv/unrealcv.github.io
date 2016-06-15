@@ -1,11 +1,10 @@
 ---
 layout: single
-title: About
-permalink: /about
+title: Contact
+permalink: /contact
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+UnrealCV is an open source project created by [Weichao Qiu](http://weichaoqiu.com). It is hosted in [Github](http://github.com/unrealcv/unrealcv). Everyone is welcomed to contribute code.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+- If you want a new feature for your research or found any bug, please submit an issue in our [issue tracker](github.com/unrealcv/issues).
+- If you want to provide a compiled binary for the community, please read the guidance in [model zoo](model_zoo.html).  
