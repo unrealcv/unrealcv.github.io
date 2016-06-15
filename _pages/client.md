@@ -4,9 +4,6 @@ permalink: /client.html
 title: UnrealCV client
 ---
 
-# Server-client architecture
-
-
 # Python Client
 <div id="python"></div>
 
@@ -27,3 +24,5 @@ More elaborate examples can be found in these tutorials:
 
 # MATLAB Client
 <div id="matlab"></div>
+
+In progress

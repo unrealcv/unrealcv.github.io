@@ -5,45 +5,49 @@ permalink: getting_started.html
 
 # Getting Started
 
-Here we will use RealisticRendering as an example. [RealisticRendering](https://docs.unrealengine.com/latest/INT/Resources/Showcases/RealisticRendering/) is a demo created by Epic Games to showcase the rendering ability of UnrealEngine.
+In this page, we will demonstrate how to use an external program to control a game. The external program can be the intelligent agent you are working on.
+
+<!-- Here we will use RealisticRendering as an example. [RealisticRendering](https://docs.unrealengine.com/latest/INT/Resources/Showcases/RealisticRendering/) is a demo created by Epic Games to showcase the rendering ability of UnrealEngine. -->
 
 ## Download
 
-To follow this instruction, you need to download a version compiled with UnrealCV server. First, download the binaries of this game.
+<!-- To follow this instruction, you need to download a version compiled with UnrealCV server. First, download the binaries of this game. -->
 
-- [Windows](https://s3-ap-northeast-1.amazonaws.com/unrealcv-scene/realisticrendering-win-20160610.zip),
-- [Linux](https://s3-ap-northeast-1.amazonaws.com/unrealcv-scene/realisticrendering-linux-20160610.zip) (Tested in Ubuntu 14.04)
-- [Mac](https://s3-ap-northeast-1.amazonaws.com/unrealcv-scene/realisticrendering-mac-20160609.zip)
+First, you need to download a game you want to interact with. A list of games can be found [here](model_zoo.html). For this tutorial, please download [RealisticRendering](model_zoo.html#realistic_rendering).
 
-Unzip it and Run `[Platform]NoEditor/RealisticRendering/Binaries/[Platform]/RealisticRendering`. If the program crash for any reason, you can reported [an issue](https://github.com/qiuwch/unrealcv/issues).
+After unzip it and Run the binary. You are expected to see a screen like this.
 
-Run the binary, you will see the game running like this in a window mode
+<center>
+  <img alt="Startup Screenshot" src="images/rr_init.png" width="300px"/>
+</center>
 
-![Startup Screenshot](images/screenshot.png)
+The game will be started in window mode with resolution 640x480, you can change the resolution later.
 
-Use mouse to look around and use `wasd` to navigate.
+Use mouse to look around and use `wasd` to navigate. If you want to release mouse cursor from the game, press '\`' (the key on top of tab)
 
 At this moment the binary is working as a normal FPS (First Person Shooter) game. We will use client code to interact with this scene.
-
-```
-A few useful shortcut key
-Shift-F1, release mouse capture
-```
 
 
 ## Get the client code.
 
-Client code will be used to send commands to control game.
+Client code will be used by an external program to send commands to control game. First we need to get the client code from github.
 
 ``` shell
 git clone git@github.com:unrealcv/unrealcv.git
 cd unrealcv
-python client/demo_client.py
 ```
+
+## Run the demo
 
 ## Generate some images from the scene
 
+``` shell
+python client/demo_client.py
+```
+
 This script will set the camera to some specific locations and generate images and corresponding annotations.
+
+The image filename will be printed in the console. We are considering faster way of exchanging pixel data between a game and an external program.
 
 `vget /camera/0/image`. The detail explanation of commands can be found in [commands](commands.html).
 
@@ -51,16 +55,10 @@ This script will set the camera to some specific locations and generate images a
 
 If you are looking for a MATLAB version, please see [here](matlab.html).
 
-## Connect with the program  
+## Next:
 
-`python demo_client.py` to run a demo script. This demo will show message sent from the virtual scene and can also send commands. How to use python script to generate an image dataset, see [generate dataset](ipynb_generate_images.html) for a step-by-step instruction.
+To fully understand how does the UnrealCV work, please read [(Reference) How UnrealCV work](how_does_it_work.html). For a complete list of available commands, please read [(Reference) Commands](commands.html).
 
-The python client is documented [here](client.html#python).
+For a more complete example of generating a dataset from the virtual, please read [(Tutorial) Generate dataset](ipynb_generate_images.html).
 
-Understand the command system.
-
-Next:
-
-For a more elaborate interaction with the scene including camera control and generate annotation. Please see [Generate a set of images from the binary](ipynb_generate_images.html)
-
-- [Integrate with faster RCNN](faster_rcnn.html)
+If you are interesting in how to integrate your external program with UnrealCV, please read [(Tutorial) Integrate with faster RCNN](faster_rcnn.html)
