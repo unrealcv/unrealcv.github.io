@@ -31,3 +31,6 @@ The detail for each part can be found:
 - Command and Response format
 
   A complete list of available commands can be found in [command cheatsheet](commands.html).
+
+
+The annotation is generated using the post processing effect of Unreal Engine. Buffer Visualization mode.

@@ -22,7 +22,7 @@ Image generated from [RelisticRendering](http://), Normal, Depth and object inst
 
 - [Getting Started](getting_started.html) learn how to use UnrealCV.
 
-- [Generate images](generate_images.html) Generate an image dataset with depth, normal and object instance mask annotation.
+- [Generate images](ipynb_generate_images.html) Generate an image dataset with depth, normal and object instance mask annotation.
 
 - [Integrate with faster-RCNN](faster_rcnn.html) will show how to use images from a video game for testing faster-RCNN.
 
