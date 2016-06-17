@@ -23,21 +23,19 @@ After unzip it and Run the binary. You are expected to see a screen like this.
 
 The game will be started in window mode with resolution 640x480, you can change the resolution later.
 
-Use mouse to look around and use `wasd` to navigate. If you want to release mouse cursor from the game, press '\`' (the key on top of tab)
+Use mouse to look around and use `wasd` to navigate. If you want to release mouse cursor from the game, press <code>`</code> (the key on top of tab)
 
 At this moment the binary is working as a normal FPS (First Person Shooter) game. We will use client code to interact with this scene.
 
 
 ## Get the client code.
 
-Client code will be used by an external program to send commands to control game. First we need to get the client code from github.
+Client code will be used by an external program to send commands to control the game. First we need to get the client code from github.
 
 ``` shell
 git clone git@github.com:unrealcv/unrealcv.git
 cd unrealcv
 ```
-
-## Run the demo
 
 ## Generate some images from the scene
 
@@ -47,18 +45,18 @@ python client/demo_client.py
 
 This script will set the camera to some specific locations and generate images and corresponding annotations.
 
-The image filename will be printed in the console. We are considering faster way of exchanging pixel data between a game and an external program.
+`filename = ue4cv.client.request('vget /camera/0/depth')`
 
-`vget /camera/0/image`. The detail explanation of commands can be found in [commands](commands.html).
+The command `vget /camera/0/depth` will ask the game to save the depth of current viewpoint to a file. A complete list of commands and detailed explanation can be found in [Reference: Commands](commands.html).
 
-`vget /camera/0/depth`
+<!-- The image filename will be printed in the console. We are considering faster way of exchanging pixel data between a game and an external program. -->
 
-If you are looking for a MATLAB version, please see [here](matlab.html).
+If you are looking for a MATLAB version, please see [here](client.html#matlab).
 
 ## Next:
 
-To fully understand how does the UnrealCV work, please read [(Reference) How UnrealCV work](how_does_it_work.html). For a complete list of available commands, please read [(Reference) Commands](commands.html).
+To fully understand how does the UnrealCV work and the design principle, please read [Reference: How does UnrealCV work](how_does_it_work.html). For a complete list of available commands, please read [Reference: Commands](commands.html).
 
-For a more complete example of generating a dataset from the virtual, please read [(Tutorial) Generate dataset](ipynb_generate_images.html).
+For a more complete example of generating a dataset from the virtual scene, please read [Tutorial: Generate Images](ipynb_generate_images.html).
 
-If you are interesting in how to integrate your external program with UnrealCV, please read [(Tutorial) Integrate with faster RCNN](faster_rcnn.html)
+If you are interesting in how to integrate your external program with UnrealCV, please read [Tutorial: Integrate with Faster-RCNN](faster_rcnn.html).

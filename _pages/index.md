@@ -10,8 +10,11 @@ More images and videos produced by Unreal Engine can be seen in [Unreal Engine S
 
 <!-- Show some high quality game images. Show image and annotation -->
 <center>
-<img width="400px" src="images/Annotation.png"/><br>
-Image generated from [RelisticRendering](http://), Normal, Depth and object instance segmentation.
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/R-yd452NU6s" frameborder="0" allowfullscreen></iframe> -->
+<img width="400px" src="images/Annotation.png" alt="annotation"/><br>
+<!-- Host this video in my website -->
+Images generated from the demo <a href="model_zoo.html#realistic_rendering">RelisticRendering</a><br>
+From left to right: image, surface normal, depth and object instance segmentation.
 </center>
 <!-- ![Annotation](images/Annotation.png) -->
 
@@ -20,15 +23,15 @@ Image generated from [RelisticRendering](http://), Normal, Depth and object inst
 
 ## Tutorials
 
-- [Getting Started](getting_started.html) learn how to use UnrealCV.
+- [Getting Started](getting_started.html) Introduce the basics of using UnrealCV.
 
-- [Generate images](ipynb_generate_images.html) Generate an image dataset with depth, normal and object instance mask annotation.
+- [Generate Images](ipynb_generate_images.html) Generate an image dataset with depth, normal and object instance mask annotation.
 
-- [Integrate with faster-RCNN](faster_rcnn.html) will show how to use images from a video game for testing faster-RCNN.
+- [Integrate with Faster-RCNN](faster_rcnn.html) will show how to use images from a video game for testing faster-RCNN.
 
 ## Reference
 
-- [How does it work](how_does_it_work.html)
+- [How does UnrealCV Work](how_does_it_work.html)
 
 ## Citation
 
