@@ -34,3 +34,7 @@ task :syncsub do
   sh "bundle exec jekyll build -d ./_unrealcv/unrealcv/ --config ./_config_subfolder.yml"
   sh "rsync -rav _unrealcv/unrealcv/ weichaoqiu.com:/home/qiuwch/weichaoqiu.com/unrealcv/"
 end
+
+task :updateipynb do
+  sh "jupyter-nbconvert --to html --output _includes/ipynb-generate-images.html _code/unrealcv/client/examples/generate-images.ipynb"
+end
