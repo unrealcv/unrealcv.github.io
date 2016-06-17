@@ -14,10 +14,11 @@ If the program crash for any reason, you can report [an issue](https://github.co
 Run the downloaded binary
 
 - In Mac: Run `[ProjectName].app`
+- In Linux: Run `./[ProjectName]/Binaries/Linux/[ProjectName]`
 
 ---
 
-## [Realistic Rendering](https://docs.unrealengine.com/latest/INT/Resources/Showcases/RealisticRendering/)
+## [RealisticRendering](https://docs.unrealengine.com/latest/INT/Resources/Showcases/RealisticRendering/)
 <div id="realistic_rendering"></div>
 
 <u>Preview:</u>
@@ -30,7 +31,7 @@ Realistic Rendering is a demo created by Epic Games to show off the rendering po
 <u>Download:</u>
 
 - [Windows](https://s3-ap-northeast-1.amazonaws.com/unrealcv-scene/realisticrendering-win-20160610.zip),
-- [Linux](https://s3-ap-northeast-1.amazonaws.com/unrealcv-scene/realisticrendering-linux-20160610.zip) (Tested in Ubuntu 14.04)
+- [Linux](https://s3-ap-northeast-1.amazonaws.com/unrealcv-scene/RealisticRendering-linux-bbab55e-f8109b9.zip) (Tested in Ubuntu 14.04)
 - [Mac](https://s3-ap-northeast-1.amazonaws.com/unrealcv-scene/RealisticRendering-mac-bbab55e-f8109b9.zip)
 
 ---
