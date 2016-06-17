@@ -31,7 +31,7 @@ Realistic Rendering is a demo created by Epic Games to show off the rendering po
 
 - [Windows](https://s3-ap-northeast-1.amazonaws.com/unrealcv-scene/realisticrendering-win-20160610.zip),
 - [Linux](https://s3-ap-northeast-1.amazonaws.com/unrealcv-scene/realisticrendering-linux-20160610.zip) (Tested in Ubuntu 14.04)
-- [Mac](https://s3-us-west-1.amazonaws.com/unreal-scene/RealisticRendering-mac-bbab55e-f8109b9.zip)
+- [Mac](https://s3-ap-northeast-1.amazonaws.com/unrealcv-scene/RealisticRendering-mac-bbab55e-f8109b9.zip)
 
 ---
 
