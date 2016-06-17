@@ -22,6 +22,8 @@ More elaborate examples can be found in these tutorials:
 - [Generate Dataset](ipynb_generate_images.html)
 - [Integrate with faster RCNN](faster_rcnn.html)
 
+[API](ue4cv.html)
+
 # MATLAB Client
 <div id="matlab"></div>
 
