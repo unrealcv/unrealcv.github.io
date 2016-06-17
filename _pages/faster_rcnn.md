@@ -34,4 +34,4 @@ After running `faster-rcnn.py`, you are expected to see a message showing the cl
 
 When you clicked mouse in the game, a frame will be sent to Faster RCNN for detection. Using the same technique shown in this tutorial, algorithms used for depth estimation, object recognition can be also easily integrated.
 
-Here we show how to do testing in a virtual scene. If you are interested in training model with synthetic images. Please refer to [Tutorial: Generate Images](generate_images.html). If you want the training procedure can also interact with the scene, such as reinforcement learning. [contact us](contact.html).
+Here we show how to do testing in a virtual scene. If you are interested in training model with synthetic images. Please refer to [Tutorial: Generate Images](ipynb_generate_images.html). If you want the training procedure can also interact with the scene, such as reinforcement learning. [contact us](contact.html).
