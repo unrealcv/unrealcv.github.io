@@ -24,10 +24,15 @@ task :s do
 end
 
 task :testsub do
+  sh "bundle exec jekyll build -d ./_unrealcv/unrealcv/ --config ./_config_subfolder.yml"
   HTMLProofer.check_directories(["./_unrealcv"], {
     :file_ignore => [/.*ipynb_.*html/],
     :url_ignore => [/.*github.com\/qiuwch\/unrealcv/],
   }).run
+end
+
+task :buildsub do
+  sh "bundle exec jekyll build -d ./_unrealcv/unrealcv/ --config ./_config_subfolder.yml"
 end
 
 task :syncsub do
