@@ -4,7 +4,10 @@ permalink: /index.html
 title: UnrealCV
 ---
 
-UnrealCV is a tool to help computer vision researchers use [Unreal Engine 4 ](http://unrealengine.com). Unreal Engine 4, also called UE4, is the most successful game engine for creating photo-realistic video games. UnrealCV can extend a video game and make it accessible to code. High fidelity images from video games can be used to train and test computer vision algorithms. Using UnrealCV, it is easy to generate images and annotation from a video game built using UE4. Moreover, the virtual scene can be controlled to produce images. Computer vision can navigate and interact in the virtual scene.
+UnrealCV is a tool to provide Computer Vision with realistic virtual scenes. It extends video games built with Unreal Engine 4 and making them easily accessible to Computer Vision algorithms.
+
+[Unreal Engine 4 (UE4)]() is a successful game engine. It is widely used to build photo-realistic games and VR applications. A game engine provides fundamental components, such as renderer, for a game. In UnrealCV, Unreal Engine is extended to provide Computer Vision related functions, such as getting object boundary annotation. UnrealCV also provides a communication layer to help an external program exchange data with a game. By extending the game engine, all games built on top of the game engine can benefit from these new features.
+
 
 More images and videos produced by Unreal Engine can be seen in [Unreal Engine Showcase](ue4_showcase.html).
 
