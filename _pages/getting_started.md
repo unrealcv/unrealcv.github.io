@@ -33,7 +33,7 @@ At this moment the binary is working as a normal FPS (First Person Shooter) game
 Client code will be used by an external program to send commands to control the game. First we need to get the client code from github.
 
 ``` shell
-git clone git@github.com:unrealcv/unrealcv.git
+git clone https://github.com/qiuwch/unrealcv.git
 cd unrealcv
 ```
 
