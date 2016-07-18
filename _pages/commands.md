@@ -7,15 +7,16 @@ permalink: /commands.html
 # The command system
 <!-- Better help system -->
 
-The command system is extended from the built-in Unreal Engine command system.
+Unreal Engine has some built-in commands to help the game development. These commands can be typed into a built-in console of a game. Using these commands, a developer can profile the game performance and view debug information.  
 
-The virtual scene can be controlled in a very simple way. The client can send a command to the game and game will return a response.
+UnrealCV extends the built-in commands with a set of commands useful for Computer Vision research. UnrealCV also provides a communication layer to enable an external program to send a command to the game.
 
-The scene is interactable with a predefined set of commands. Use **`** key to invoke the console built-in. Type it twice to get the command windows.
+To invoke the built-in console of a game, type the <code>`</code> key (the key above tab). A built-in command, such as `stat fps` or an UnrealCV command, such as `vset /mode depth` can be typed. The virtual scene can be controlled in a very simple way. The client can send a command to the game and game will return a response.
+
+The scene is inter-actable with a predefined set of commands. Use **`** key to invoke the console built-in. Type it twice to get the command windows.
 
 <img src="images/keyboard.png" width="100" alt="Key to invoke console">
 
-Try a simple command `vset /mode/depth` to show the depth of this scene and use `vset /mode/lit` to switch back to normal.
 
 # Command cheatsheet
 
@@ -26,57 +27,29 @@ Try a simple command `vset /mode/depth` to show the depth of this scene and use 
 </blockquote>
 
 
-Use `cd scripts; python generate_help.py`.
+Use `cd scripts; python get-help.py`.
 
 <!-- how to generate a tree -->
 
-| URI                                          | Access  | Description         |
-|:---------------------------------------------|:--------|:--------------------|
-| vget /camera/[uint]/location                 | get/set | Get camera location |
-| vget /camera/[uint]/rotation                 |         | Get camera rotation |
-| _/[str]                                      |         |                     |
-| ___<b title="/object/[str]/color">/color</b> | get/set |                     |
-| ___<b title="/object[str]/name">/name</b>    | get     |                     |
-| /camera                                      |         |                     |
-| _/location                                   | get/set | x y z               |
-| _/rotation                                   | get/set | ax el               |
-| _/depth                                      | get     |                     |
-
-# Alias
-
-For example: `vset /camera/rotation 0 0 0`
-
-URI: `/mode`
-
-Method: get/set
-
-Example:
-
-`vget /mode`
-
-`vset /mode depth`
-
----
-URI: `/camera/[id]/name`
-
-Method: get
-
----
-URI: `/camera/[id]/rotation`
-
-Method: get/set
-
----
-URI: `/camera/[id]/position`
-
-Method: get/set
-
----
-URI: `/object/[object_name]/name`
-
-Method: get
-
----
-URI: `/object/[object_name]/color`
-
-Method: get
+| URI                                                  | Description                                                |
+|:-----------------------------------------------------|:-----------------------------------------------------------|
+| vrun [str]                                           | Run an alias for Unreal CV plugin                          |
+| vget /objects                                        | Get all objects in the scene                               |
+| [str] /object/_/[str]                                | Get current object                                         |
+| vget /object/[str]/color                             | Get object color                                           |
+| vset /object/[str]/color [uint] [uint] [uint]        | Set object color                                           |
+| vget /object/[str]/name                              | Get object name                                            |
+| vget /camera/[uint]/location                         | Get camera location                                        |
+| vget /camera/[uint]/rotation                         | Get camera rotation                                        |
+| vset /camera/[uint]/location [float] [float] [float] | Set camera location                                        |
+| vset /camera/[uint]/rotation [float] [float] [float] | Set camera rotation                                        |
+| vget /camera/[uint]/view                             | Get snapshot from camera, the second parameter is optional |
+| vget /camera/[uint]/view [str]                       | Get snapshot from camera, the second parameter is optional |
+| vget /camera/[uint]/[str]                            | Get snapshot from camera, the third parameter is optional  |
+| vget /camera/[uint]/[str] [str]                      | Get snapshot from camera, the third parameter is optional  |
+| vset /mode [str]                                     | Set mode                                                   |
+| vget /mode                                           | Get mode                                                   |
+| vget /unrealcv/port                                  | Get port from the plugin listening to                      |
+| vset /unrealcv/port [uint]                           | Set port the plugin listening to                           |
+| vget /unrealcv/status                                | Get camera location                                        |
+| vget /unrealcv/help                                  | Get all available commands                                 |
