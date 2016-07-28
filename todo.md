@@ -1,4 +1,4 @@
-- [ ] Check dead link.
+- [x] Check dead link.
 
 - [ ] CNN, context, output.
 
