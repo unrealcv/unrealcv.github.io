@@ -37,13 +37,15 @@ git clone https://github.com/qiuwch/unrealcv.git
 cd unrealcv
 ```
 
+Or download the code in a zip [file](https://github.com/qiuwch/unrealcv/archive/master.zip) and extract the code.
+
 ## Generate some images from the scene
 
 ``` shell
 python client/demo_client.py
 ```
 
-This script will set the camera to some specific locations and generate images and corresponding annotations.
+This script will generate images and their corresponding annotations.
 
 `filename = ue4cv.client.request('vget /camera/0/depth')`
 
