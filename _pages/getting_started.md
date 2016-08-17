@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: getting_started.html
+permalink: tutorial/getting_started.html
 ---
 
 # Getting Started

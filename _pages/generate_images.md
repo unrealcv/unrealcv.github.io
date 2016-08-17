@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Generate a dataset
-permalink: generate_images_old.html
+permalink: tutorial/generate_images_old.html
 ---
 
 We provide an example python script to generate a bunch of images from the virtual scene. The script is in `client/scripts/batch_rendering.py`

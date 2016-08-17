@@ -1,9 +1,9 @@
 ---
 layout: single
 title: Reference
-permalink: /reference
+permalink: /reference/index.html
 ---
-- [How does UnrealCV Work](how_does_it_work.html) Explain the architecture of UnrealCV.
+- [Architecture](architecture.html) Explain the architecture of UnrealCV.
 
 - [Command List](commands.html) A list of available commands in UnrealCV.
 
