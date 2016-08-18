@@ -5,7 +5,7 @@ permalink: tutorial/getting_started.html
 
 # Getting Started
 
-In this page, we will demonstrate how to use an external program to control a game. The external program can be the intelligent agent you are working on.
+This tutorial will demonstrate how to use an external program to control the camera game. The external program can be the intelligent agent you are working on.
 
 <!-- Here we will use RealisticRendering as an example. [RealisticRendering](https://docs.unrealengine.com/latest/INT/Resources/Showcases/RealisticRendering/) is a demo created by Epic Games to showcase the rendering ability of UnrealEngine. -->
 
@@ -18,7 +18,7 @@ First, you need to download a game you want to interact with. A list of games ca
 After unzip it and Run the binary. You are expected to see a screen like this.
 
 <center>
-  <img alt="Startup Screenshot" src="images/rr_init.png" width="300px"/>
+  <img alt="Startup Screenshot" src="/images/rr_init.png" width="300px"/>
 </center>
 
 The game will be started in window mode with resolution 640x480, you can change the resolution later.

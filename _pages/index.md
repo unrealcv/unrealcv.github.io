@@ -27,11 +27,11 @@ From left to right: image, surface normal, depth and object instance segmentatio
 
 ## Tutorials
 
-- [Getting Started](getting_started.html) Introduce the basics of using UnrealCV.
+- [Getting Started](tutorial/getting_started.html) Introduce the basics of using UnrealCV.
 
-- [Generate Images](ipynb_generate_images.html) Generate an image dataset with depth, normal and object instance mask annotation.
+- [Generate Images](tutorial/ipynb_generate_images.html) Generate an image dataset with depth, normal and object instance mask annotation.
 
-- [Integrate with Faster-RCNN](faster_rcnn.html) will show how to use images from a video game for testing faster-RCNN.
+- [Integrate with Faster-RCNN](tutorial/faster_rcnn.html) will show how to use images from a video game for testing faster-RCNN.
 
 ## Reference
 
