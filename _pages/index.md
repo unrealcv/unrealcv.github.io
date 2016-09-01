@@ -4,7 +4,7 @@ permalink: /index.html
 title: UnrealCV
 ---
 
-UnrealCV is a project to use Unreal Engine 4 (UE4) for building virtual worlds for Computer Vision. 
+UnrealCV is a project to use Unreal Engine 4 (UE4) for building virtual worlds for computer vision. 
 
 UnrealCV is a tool to provide Computer Vision with realistic virtual scenes. It extends video games built with Unreal Engine 4 and making them easily accessible to Computer Vision algorithms.
 

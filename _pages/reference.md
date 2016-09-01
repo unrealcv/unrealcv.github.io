@@ -9,6 +9,4 @@ permalink: /reference/index.html
 
 - [Model Zoo](model_zoo.html) A list of compiled games with UnrealCV integrated
 
-- [Python Client](client.html#python)
-
-- [MATLAB Client](client.html#matlab)
+- [Python/MATLAB client API](client.html)

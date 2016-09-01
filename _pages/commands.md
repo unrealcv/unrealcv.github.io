@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /commands.html
+permalink: /reference/commands.html
 ---
 
 

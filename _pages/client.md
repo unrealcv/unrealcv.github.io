@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /client.html
+permalink: /reference/client.html
 title: UnrealCV client
 ---
 
