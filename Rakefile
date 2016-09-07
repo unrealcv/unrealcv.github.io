@@ -1,4 +1,3 @@
-require 'html-proofer'
 
 task :build do
   sh "bundle exec jekyll build"
@@ -24,6 +23,7 @@ task :s do
 end
 
 task :testsub do
+  require 'html-proofer'
   sh "bundle exec jekyll build -d ./_unrealcv/unrealcv/ --config ./_config_subfolder.yml"
   HTMLProofer.check_directories(["./_unrealcv"], {
     :file_ignore => [/.*ipynb_.*html/],

@@ -1,44 +1,50 @@
 ---
 layout: single
 permalink: /index.html
-title: UnrealCV
 ---
+<blockquote class='bg-warning'>
+We are actively updating the content of this website. The content is subject to change.
+</blockquote>
 
-UnrealCV is a project to use Unreal Engine 4 (UE4) for building virtual worlds for computer vision. 
+# UnrealCV
 
-UnrealCV is a tool to provide Computer Vision with realistic virtual scenes. It extends video games built with Unreal Engine 4 and making them easily accessible to Computer Vision algorithms.
+UnrealCV is a tool to use Unreal Engine 4 (UE4) for building virtual worlds for computer vision. It contains an UE4 plugin and a client library.
 
-[Unreal Engine 4 (UE4)](http://unrealengine.com) is a successful game engine. It is widely used to build photo-realistic games and VR applications. A game engine provides fundamental components, such as renderer, for a game. In UnrealCV, Unreal Engine is extended to provide Computer Vision related functions, such as getting object boundary annotation. UnrealCV also provides a communication layer to help an external program exchange data with a game. By extending the game engine, all games built on top of the game engine can benefit from these new features.
-
-More images and videos produced by Unreal Engine can be seen in [Unreal Engine Showcase](ue4_showcase.html).
-
-<!-- Show some high quality game images. Show image and annotation -->
-<center>
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/R-yd452NU6s" frameborder="0" allowfullscreen></iframe> -->
-<img width="400px" src="images/Annotation.png" alt="annotation"/><br>
-<!-- Host this video in my website -->
-Images generated from the demo <a href="model_zoo.html#realistic_rendering">RelisticRendering</a><br>
-From left to right: image, surface normal, depth and object instance segmentation.
-</center>
-<!-- ![Annotation](images/Annotation.png) -->
+UnrealCV provides a set of computer vision related functions, such as moving cameras and getting ground truth. It also provides a communication layer to help an external program, such as Caffe, to exchange data with a game. All games built on top of Unreal Engine can benefit from these features.
 
 <center>
+<img src="images/homepage_teaser.png" alt="annotation"/>
+Images generated from the technical demo <a href="model_zoo.html#realistic_rendering">RelisticRendering</a><br>
 </center>
 
 ## Tutorials
 
-- [Getting Started](tutorial/getting_started.html) Introduce the basics of using UnrealCV.
+- [Getting Started](tutorial/getting_started.html) The basics of using UnrealCV.
 
 - [Generate Images](tutorial/ipynb_generate_images.html) Generate an image dataset with depth, normal and object instance mask annotation.
 
-- [Integrate with Faster-RCNN](tutorial/faster_rcnn.html) will show how to use images from a video game for testing faster-RCNN.
+- [Integrate with Faster-RCNN](tutorial/faster_rcnn.html) Show how to use images from a video game for testing faster-RCNN.
+
+- [Install Plugin to UE4](tutorial/plugin.html) How to install UnrealCV plugin into UE4.
 
 ## Reference
 
-- [How does UnrealCV Work](how_does_it_work.html)
+- [Architecture](reference/architecture.html) Technical Details of UnrealCV
+
+- [Command List](reference/commands.html) All available commands provided in UnrealCV
 
 ## Citation
 
-If you found this project useful for you. Please cite our paper <>.
+If you found this project useful for you. Please consider citing our paper
 
+```
+@article{qiu2016unrealcv,
+  Author = {Qiu, Weichao and Yuille, Alan},
+  Journal = {arXiv preprint arXiv:1609.01326},
+  Title = {UnrealCV: Connecting Computer Vision to Unreal Engine},
+  Year = {2016}
+}
+```
+
+## Contact
 If you have any suggestion or want to need help of using this in your project you can [contact us](contact.html).
