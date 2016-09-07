@@ -8,7 +8,7 @@ We are actively updating the content of this website. The content is subject to 
 
 # UnrealCV
 
-UnrealCV is a tool to use Unreal Engine 4 (UE4) for building virtual worlds for computer vision. It contains an UE4 plugin and a client library.
+UnrealCV is a tool to use Unreal Engine 4 (UE4) to build virtual worlds for computer vision. It contains an UE4 plugin and a client library.
 
 UnrealCV provides a set of computer vision related functions, such as moving cameras and getting ground truth. It also provides a communication layer to help an external program, such as Caffe, to exchange data with a game. All games built on top of Unreal Engine can benefit from these features.
 
