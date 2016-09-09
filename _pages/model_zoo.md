@@ -1,13 +1,13 @@
 ---
 layout: single
 title: Compiled Games
-permalink: /model_zoo.html
+permalink: /reference/model_zoo.html
 ---
-
+{% assign bin = site.data.binary %}
 We provide compiled virtual scene to play with. All the digital contents belong to the original author.
 <!-- add more formal license information -->
 
-The community maintained games will be hosted in the [github wiki page](http://).
+<!-- The community maintained games will be hosted in the [github wiki page](http://). -->
 
 If the program crash for any reason, you can report [an issue](https://github.com/qiuwch/unrealcv/issues).
 
@@ -22,7 +22,7 @@ Run the downloaded binary
 <div id="realistic_rendering"></div>
 
 <u>Preview:</u>
-![teaser](images/realistic_rendering.png)
+![teaser](/images/realistic_rendering.png)
 
 <u>Description:</u>
 
@@ -30,9 +30,11 @@ Realistic Rendering is a demo created by Epic Games to show off the rendering po
 
 <u>Download:</u>
 
-- [Windows](https://s3-ap-northeast-1.amazonaws.com/unrealcv-scene/RealisticRendering-win-bbab55e-f8109b9.zip),
-- [Linux](https://s3-ap-northeast-1.amazonaws.com/unrealcv-scene/RealisticRendering-linux-bbab55e-f8109b9.zip) (Tested in Ubuntu 14.04)
-- [Mac](https://s3-ap-northeast-1.amazonaws.com/unrealcv-scene/RealisticRendering-mac-bbab55e-f8109b9.zip)
+- [Windows]({{ bin.base }}/{{ bin.unrealcv.win }})
+
+- [Linux]({{ bin.base }}/{{ bin.unrealcv.linux }}) (Tested in Ubuntu 14.04)
+
+- [Mac]({{ bin.base }}/{{ bin.unrealcv.mac }})
 
 ---
 

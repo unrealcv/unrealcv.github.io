@@ -10,8 +10,8 @@ locale                   : "en-US"
 # title                    : "Site Title"
 title: UnrealCV
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "UnrealCV"
+description              : ""
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 # baseurl: "/unrealcv" # the subpath of your site, e.g. /blog/
@@ -52,9 +52,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : custom # false (default), "google", "google-universal", "custom"
+  provider               : google # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : UA-44125051-3
 
 # Google AdSense
 google_ad_client         :
@@ -63,11 +63,11 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "Weichao Qiu"
+  avatar           : ""
+  bio              : ""
+  location         : "Baltimore, MD, USA"
+  email            : "qiuwch@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -75,7 +75,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : http://github.com/qiuwch
   google_plus      :
   keybase          :
   instagram        :

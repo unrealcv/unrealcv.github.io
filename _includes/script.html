@@ -1,0 +1,9 @@
+{% capture jekyll_code %}
+{% assign base = site.data.script.base %}
+{% assign item = site.data.script[include.key] %}
+{% if include.text %}
+  {% assign text = include.text %}
+{% else %}
+  {% assign text = item.url %}
+{% endif %}
+{% endcapture %}<a href="{{ base }}{{ item.url }}">{{ text }}</a>

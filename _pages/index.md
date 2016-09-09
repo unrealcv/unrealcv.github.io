@@ -14,30 +14,30 @@ UnrealCV provides a set of computer vision related functions, such as moving cam
 
 <center>
 <img src="images/homepage_teaser.png" alt="annotation"/>
-Images generated from the technical demo <a href="model_zoo.html#realistic_rendering">RelisticRendering</a><br>
+Images generated from the technical demo <a href="reference/model_zoo.html#realistic_rendering">RelisticRendering</a><br>
 </center>
 
 ## Tutorials
 
-- [Getting Started](tutorial/getting_started.html) The basics of using UnrealCV.
+- [Getting Started](tutorial/getting_started.html) - The basics of using UnrealCV.
 
-- [Generate Images](tutorial/ipynb_generate_images.html) Generate an image dataset with depth, normal and object instance mask annotation.
+- {% include script.html key='ipynb_generate_images' text='Generate Images' %}  Generate an image dataset with ground truth.
 
-- [Integrate with Faster-RCNN](tutorial/faster_rcnn.html) Show how to use images from a video game for testing faster-RCNN.
+- [Integrate with Faster-RCNN](tutorial/faster_rcnn.html) - Show how to use images from a video game for testing faster-RCNN.
 
-- [Install Plugin to UE4](tutorial/plugin.html) How to install UnrealCV plugin into UE4.
+- [Install Plugin to UE4](tutorial/plugin.html) - How to install UnrealCV plugin into UE4.
 
 ## Reference
 
-- [Architecture](reference/architecture.html) Technical Details of UnrealCV
+- [Architecture](reference/architecture.html) - Technical Details of UnrealCV
 
-- [Command List](reference/commands.html) All available commands provided in UnrealCV
+- [Command List](reference/commands.html) - All available commands provided in UnrealCV
 
 ## Citation
 
 If you found this project useful for you. Please consider citing our paper
 
-```
+```bibtex
 @article{qiu2016unrealcv,
   Author = {Qiu, Weichao and Yuille, Alan},
   Journal = {arXiv preprint arXiv:1609.01326},
@@ -47,4 +47,4 @@ If you found this project useful for you. Please consider citing our paper
 ```
 
 ## Contact
-If you have any suggestion or want to need help of using this in your project you can [contact us](contact.html).
+If you have any suggestion or interested in using UnrealCV in your project you can [contact us](contact.html).

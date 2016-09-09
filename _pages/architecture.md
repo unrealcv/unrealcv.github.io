@@ -22,7 +22,7 @@ The detail for each part can be found:
 
 - UnrealCV Server
 
-  Here we will show how to use the binaries we provided. If you want to make our own scene interactable, please read about how to use the [plugin system](server.html).    
+  Here we will show how to use the binaries we provided. If you want to make our own scene interactable, please read about how to use the [plugin system](/tutorial/plugin.html).    
 
 - UnrealCV Client
 

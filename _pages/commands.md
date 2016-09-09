@@ -15,19 +15,19 @@ To invoke the built-in console of a game, type the <code>`</code> key (the key a
 
 The scene is inter-actable with a predefined set of commands. Use **`** key to invoke the console built-in. Type it twice to get the command windows.
 
-<img src="images/keyboard.png" width="100" alt="Key to invoke console">
+<img src="/images/keyboard.png" width="100" alt="Key to invoke console">
 
 
 # Command cheatsheet
 
 <blockquote class='bg-warning'>
   This command list is growing and subject to change<br>
-  <a href='contact.html'>Contact us</a> to tell us what functions are useful for your project.<br>
+  <a href='/contact.html'>Contact us</a> to tell us what functions are useful for your project.<br>
   This page is generated from the binary. To see the update-to-date help message.
 </blockquote>
 
 
-Use `cd scripts; python get-help.py`.
+Use {% include script.html name="ls.py" %} to generate the table below.
 
 <!-- how to generate a tree -->
 

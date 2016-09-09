@@ -7,7 +7,7 @@ permalink: tutorial/plugin.html
 Under construction
 </blockquote>
 
-Prerequisite: [Getting Started](tutorial/getting_started.html)
+Prerequisite: [Getting Started](/tutorial/getting_started.html)
 
 All UnrealCV commands can be used in UE4 editor also
 
