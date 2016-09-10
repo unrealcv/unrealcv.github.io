@@ -3,14 +3,19 @@ layout: single
 permalink: /index.html
 ---
 <blockquote class='bg-warning'>
-We are actively updating the content of this website. The content is subject to change.
+We are actively updating this website. The content is subject to change.
 </blockquote>
 
 # UnrealCV
 
-UnrealCV is a tool to use Unreal Engine 4 (UE4) to build virtual worlds for computer vision. It contains an UE4 plugin and a client library.
+UnrealCV is a project to help computer vision researchers build virtual worlds using Unreal Engine 4 (UE4). It extends UE4 with a plugin by providing:
 
-UnrealCV provides a set of computer vision related functions, such as moving cameras and getting ground truth. It also provides a communication layer to help an external program, such as Caffe, to exchange data with a game. All games built on top of Unreal Engine can benefit from these features.
+1. A set of UnrealCV commands to interact with the virtual world.
+2. Communication between UE4 and an external program, such as Caffe.
+
+UnrealCV can be used in two ways. The first one is using a compiled game binary with UnrealCV embedded. This is as simple as running a game, no knowledge of Unreal Engine is required. The second is installing UnrealCV plugin to Unreal Engine 4 (UE4) and use the editor of UE4 to build a new virtual world.
+
+Please read [Tutorial: Getting Started](/tutorial/getting_started.html) to learn using UnrealCV.
 
 <center>
 <img src="images/homepage_teaser.png" alt="annotation"/>
@@ -19,7 +24,7 @@ Images generated from the technical demo <a href="reference/model_zoo.html#reali
 
 ## Tutorials
 
-- [Getting Started](tutorial/getting_started.html) - The basics of using UnrealCV.
+- [Getting Started](tutorial/getting_started.html) - The basics of using UnrealCV, start from here.
 
 - {% include script.html key='ipynb_generate_images' text='Generate Images' %}  Generate an image dataset with ground truth.
 
@@ -35,7 +40,7 @@ Images generated from the technical demo <a href="reference/model_zoo.html#reali
 
 ## Citation
 
-If you found this project useful for you. Please consider citing our paper
+If you found this project useful, please consider citing our paper
 
 ```bibtex
 @article{qiu2016unrealcv,
@@ -47,4 +52,4 @@ If you found this project useful for you. Please consider citing our paper
 ```
 
 ## Contact
-If you have any suggestion or interested in using UnrealCV in your project you can [contact us](contact.html).
+If you have any suggestion or interested in using UnrealCV, please [contact us](contact.html).

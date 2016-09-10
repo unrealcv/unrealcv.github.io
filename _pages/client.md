@@ -1,8 +1,12 @@
 ---
 layout: single
 permalink: /reference/client.html
-title: UnrealCV client
 ---
+<blockquote class='bg-warning'>
+This page is still under construction
+</blockquote>
+
+# UnrealCV client API documentation
 
 # Python Client
 <div id="python"></div>
@@ -23,8 +27,4 @@ More commands can be found in [commands page](commands.html)
 # MATLAB Client
 <div id="matlab"></div>
 
-Client code can be found in `client/matlab`
-
-<blockquote>
-Documentation is under construction
-</blockquote>
+Client code can be found in {% include script.html key="matlab" %}

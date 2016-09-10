@@ -10,9 +10,11 @@ Here are a list of tutorials to get you familiar with UnrealCV step-by-step.
 
   The basics of using UnrealCV.
 
-- [Generate Images](/tutorial/ipynb_generate_images.html)
 
-  Generate an image dataset with depth, normal and object instance mask annotation.
+- {% include script.html key='ipynb_generate_images' text='Generate Images' %}  
+
+  Generate an image dataset with ground truth.
+
 
 - [Integrate with Faster-RCNN](/tutorial/faster_rcnn.html)
 

@@ -8,3 +8,7 @@ base: https://github.com/qiuwch/unrealcv/blob/master/
   url: client/examples/generate-images.ipynb
 "faster-rcnn":
   url: client/examples/faster-rcnn.py
+"install":
+  url: install.sh
+"matlab":
+  url: client/matlab

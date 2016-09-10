@@ -4,21 +4,55 @@ title: Use UnrealCV plugin
 permalink: tutorial/plugin.html
 ---
 <blockquote class='bg-warning'>
-Under construction
+This page is still under construction
 </blockquote>
 
-Prerequisite: [Getting Started](/tutorial/getting_started.html)
 
-All UnrealCV commands can be used in UE4 editor also
+All UnrealCV commands can be used in UE4Editor also. In this tutorial, we introduce how to install UnrealCV plugin and use it in UE4Editor.
 
-In this tutorial, we introduce how to install UnrealCV plugin in UE4 and how to use this plugin in UE4 editor.
+## Prerequisites
 
-Copy unrealcv plugin to the `Plugins` project folder or game engine folder.
+- Read [Tutorial: Getting Started](/tutorial/getting_started.html)
+- Install Unreal Engine, Installation guide for [Windows and Mac](https://docs.unrealengine.com/latest/INT/GettingStarted/Installation/),
+ [Linux](#linux)
+- Learn how to use UE4Editor
 
-## Tips for Linux
+<div id='linux'></div>
 
-In Linux, the Unreal Engine needs to be built from source code. How to install Unreal Engine can be found in this document. [Building On Linux](https://wiki.unrealengine.com/Building_On_Linux)
+### Installation tips for Linux
 
-The Linux version does not contain OpenEXR support, which is required for get accurate depth.
+In Linux, the Unreal Engine needs to be built from source code. How to compile from source code can be found in this official document [Building On Linux](https://wiki.unrealengine.com/Building_On_Linux). But the Linux version currently does not contain OpenEXR support, which is required for getting accurate depth.
 
-Run `git apply 0001-Fix-openexr-support-for-linux-version.patch` after running `./GenerateProjectFiles.sh`.
+To solve this, download our [OpenEXR patch for linux](0001-Fix-openexr-support-for-linux-version.patch) and run `git apply 0001-Fix-openexr-support-for-linux-version.patch` after running `./GenerateProjectFiles.sh`.
+
+## Install UnrealCV to UE4Editor
+
+UnrealCV provides a plugin for Unreal Engine. After installing the plugin, you can use the game design tools of UE4 to create a virtual world by drag-and-drop basic building blocks. Also if your task needs to modify the objects of the scene, such as changing object material, lighting configuration. It is easier to use UE4Editor perform these tasks.
+
+### Installation
+
+UnrealCV plugin needs to be downloaded and copied to the `Plugins` folder of project or Unreal Engine.
+
+
+Download: [unrealcv_master.zip](http://www.cs.jhu.edu/~qiuwch/unrealcv/plugin/unrealcv_master.zip)
+
+We provide a script to simplify the installation. The plugin can be either installed to a project folder or to the engine folder.
+
+- Install to project
+    - go to project folder which contains `[ProjectName].uproject`
+    - create a folder called `Plugins`
+    - run `curl http://unrealcv.github.io/{{ site.data.script.install.url }} | sh`
+
+- Install to Unreal Engine
+    - go to the plugin folder of Unreal Engine which is `Engine/Plugins`
+    - run `curl http://unrealcv.github.io/{{ site.data.script.install.url }} | sh`
+
+- Open `Menu -> Edit -> Plugins`, make sure `UnrealCV` is installed and enabled.
+![instal-plugin](/images/install-plugin.png)
+
+
+## Usage
+
+In `World Settings -> Game Mode -> GameMode Override`, select `UE4CVGameMode`. Then you can use all UnrealCV commands in the UE4Editor.
+
+<!-- Show an image or video -->

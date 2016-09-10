@@ -1,6 +1,6 @@
 # base: http://s3-ap-northeast-1.amazonaws.com/unrealcv-scene/
 base: http://www.cs.jhu.edu/~qiuwch/unrealcv/binaries/
 unrealcv:
-  win: RealisticRendering-win.zip
-  linux: RealisticRendering-linux.zip
+  win: RealisticRendering-Win64-65d6144-171cd97.zip
+  linux: RealisticRendering-Linux-65d6144-171cd97.zip
   mac: RealisticRendering-mac.zip
