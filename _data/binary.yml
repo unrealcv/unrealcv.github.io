@@ -3,4 +3,5 @@ base: http://www.cs.jhu.edu/~qiuwch/unrealcv/binaries/
 unrealcv:
   win: RealisticRendering-Win64-65d6144-171cd97.zip
   linux: RealisticRendering-Linux-65d6144-171cd97.zip
-  mac: RealisticRendering-mac.zip
+  mac: RealisticRendering-Mac-65d6144-c25660b.zip.zip
+# The first sha1 is project git version, the second sha1 is the plugin git version. 
