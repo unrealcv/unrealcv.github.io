@@ -23,7 +23,7 @@ All UnrealCV commands can be used in UE4Editor also. In this tutorial, we introd
 
 In Linux, the Unreal Engine needs to be built from source code. How to compile from source code can be found in this official document [Building On Linux](https://wiki.unrealengine.com/Building_On_Linux). But the Linux version currently does not contain OpenEXR support, which is required for getting accurate depth.
 
-To solve this, download our [OpenEXR patch for linux](0001-Fix-openexr-support-for-linux-version.patch) and run `git apply 0001-Fix-openexr-support-for-linux-version.patch` after running `./GenerateProjectFiles.sh`.
+To solve this, download our [OpenEXR patch for linux](/files/0001-Fix-openexr-support-for-linux-version.patch) and run `git apply 0001-Fix-openexr-support-for-linux-version.patch` after running `./GenerateProjectFiles.sh`.
 
 ## Install UnrealCV to UE4Editor
 
