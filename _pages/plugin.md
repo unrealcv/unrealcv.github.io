@@ -41,11 +41,11 @@ We provide a script to simplify the installation. The plugin can be either insta
 - Install to project
     - go to project folder which contains `[ProjectName].uproject`
     - create a folder called `Plugins`
-    - run `curl http://unrealcv.github.io/{{ site.data.script.install.url }} | sh`
+    - run `curl -L http://unrealcv.github.io/{{ site.data.script.install.url }} | sh`
 
 - Install to Unreal Engine
     - go to the plugin folder of Unreal Engine which is `Engine/Plugins`
-    - run `curl http://unrealcv.github.io/{{ site.data.script.install.url }} | sh`
+    - run `curl -L http://unrealcv.github.io/{{ site.data.script.install.url }} | sh`
 
 - Open `Menu -> Edit -> Plugins`, make sure `UnrealCV` is installed and enabled.
 ![instal-plugin](/images/install-plugin.png)
