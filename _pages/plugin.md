@@ -36,7 +36,7 @@ UnrealCV plugin needs to be downloaded and copied to the `Plugins` folder of pro
 
 Download: [unrealcv_master.zip](http://www.cs.jhu.edu/~qiuwch/unrealcv/plugin/unrealcv_master.zip)
 
-We provide a script to simplify the installation. The plugin can be either installed to a project folder or to the engine folder.
+We provide a script to simplify the installation. The plugin can be **either** installed to a project folder or to the engine folder.
 
 - Install to project
     - go to project folder which contains `[ProjectName].uproject`
