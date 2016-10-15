@@ -14,7 +14,7 @@ All UnrealCV commands can be used in UE4Editor also. In this tutorial, we introd
 
 - Read [Tutorial: Getting Started](/tutorial/getting_started.html)
 - Install Unreal Engine, Installation guide for [Windows and Mac](https://docs.unrealengine.com/latest/INT/GettingStarted/Installation/),
- [Linux](#linux)
+ [Linux](#linux). Please use version 4.12 at this moment, we are fixing some minor compatible issues with 4.13.
 - Learn how to use UE4Editor
 
 <div id='linux'></div>
