@@ -12,3 +12,12 @@ UnrealCV is an open source project created by [Weichao Qiu](http://weichaoqiu.co
 - Want to provide a compiled binary for the community? Please read the guidance in [model zoo](/reference/model_zoo.html).  
 
 - Want to learn how to create a game using Unreal Engine 4? Please check their excellent [document](https://docs.unrealengine.com/latest/INT/).
+
+## Team Members
+
+UnrealCV is developed and maintained by a group of students working on computer vision (sort alphabetically).
+
+- [Siyuan Qiao](http://www.cs.jhu.edu/~syqiao/): Stochastic virtual scene generation
+- [Tae Soo Kim](): Deep learning for transferable concepts between the real and the virtual environment
+- [Weichao Qiu](http://weichaoqiu.com): Constructing virtual worlds to train and diagnose computer vision algorithms
+- [Yi Zhang](): Algorithm diagnosis with synthetic data 
