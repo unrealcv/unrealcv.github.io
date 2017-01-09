@@ -1,0 +1,6 @@
+{% capture jekyll_code %}
+{% assign base = site.data.doc.base %}
+{% assign text = include.text %}
+<!-- {% assign url = base + include.url %} -->
+{% assign url = base | append: include.url %}
+{% endcapture %}<a href="{{ url }}">{{ text }}</a>

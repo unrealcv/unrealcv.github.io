@@ -3,7 +3,7 @@ layout: single
 permalink: /index.html
 ---
 <blockquote class='bg-warning'>
-We are actively updating this website. The content is subject to change.
+Update:
 </blockquote>
 
 # UnrealCV
@@ -15,22 +15,32 @@ UnrealCV is a project to help computer vision researchers build virtual worlds u
 
 UnrealCV can be used in two ways. The first one is using a compiled game binary with UnrealCV embedded. This is as simple as running a game, no knowledge of Unreal Engine is required. The second is installing UnrealCV plugin to Unreal Engine 4 (UE4) and use the editor of UE4 to build a new virtual world.
 
-Please read [Tutorial: Getting Started](/tutorial/getting_started.html) to learn using UnrealCV.
+Please read {% include doc url="getting-started/" text="getting started" %} to learn using UnrealCV.
 
 <center>
-<img src="images/homepage_teaser.png" alt="annotation"/>
-Images generated from the technical demo <a href="reference/model_zoo.html#realistic_rendering">RelisticRendering</a><br>
+  <img src="images/homepage_teaser.png" alt="annotation"/>
+  Images generated from the technical demo <a href="reference/model_zoo.html#realistic_rendering">RelisticRendering</a><br>
 </center>
 
 ## Tutorials
 
-- [Getting Started](tutorial/getting_started.html) - The basics of using UnrealCV, start from here.
+- {% include doc url='getting-started/' text='Getting Started' %}
+  The basics of using UnrealCV, start from here.
+<!-- [Getting Started](tutorial/getting_started.html) -->
 
-- {% include script.html key='ipynb_generate_images' text='Generate Images' %}  Generate an image dataset with ground truth.
+- {% include doc url='game/generate-images/' text='Generate Images' %}
+  Generate an image dataset with ground truth.
 
-- [Integrate with Faster-RCNN](tutorial/faster_rcnn.html) - Show how to use images from a video game for testing faster-RCNN.
+- {% include doc url='game/faster-rcnn/' text='Integrate with Faster-RCNN' %}
+  Show how to use images from a video game for testing faster-RCNN.
+<!-- [Integrate with Faster-RCNN](https://unrealcv.readthedocs.io/page/game/faster-rcnn/) -->
 
-- [Install Plugin to UE4](tutorial/plugin.html) - How to install UnrealCV plugin into UE4.
+- {% include doc url='plugin/install/' text='Install Plugin to UE4' %}
+  How to install UnrealCV plugin into UE4.
+<!-- [Install Plugin to UE4](tutorial/plugin.html) -->
+
+- Test text
+  \- Prevent line break
 
 ## Reference
 
