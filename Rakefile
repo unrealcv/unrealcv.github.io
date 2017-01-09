@@ -19,7 +19,7 @@ task :test do
 end
 
 task :s do
-  sh "bundle exec jekyll s"
+  sh "bundle exec jekyll s --force_polling"
 end
 
 task :testsub do
