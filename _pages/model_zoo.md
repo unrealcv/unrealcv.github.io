@@ -29,24 +29,25 @@ Realistic Rendering is a demo created by Epic Games to show the rendering power 
 
 <u>Download:</u>
 
-- [Windows]({{ bin.base }}/{{ bin.unrealcv.win }})
+- [Windows](http://www.cs.jhu.edu/~qiuwch/unrealcv/binaries/RealisticRendering-Win64-65d6144-171cd97.zip)
 
-- [Linux]({{ bin.base }}/{{ bin.unrealcv.linux }}) (Tested in Ubuntu 14.04)
+- [Linux](http://www.cs.jhu.edu/~qiuwch/unrealcv/binaries/RealisticRendering-Linux-65d6144-171cd97.zip) (Tested in Ubuntu 14.04)
 
-- [Mac]({{ bin.base }}/{{ bin.unrealcv.mac }})
+- [Mac](http://www.cs.jhu.edu/~qiuwch/unrealcv/binaries/RealisticRendering-Mac-65d6144-c25660b.zip)
 
 ---
 
 ## [First Person Shooter]()
 
-<blockquote>
-Under construction
-</blockquote>
+This is the [playground project](https://github.com/unrealcv/playground) of UnrealCV, modified from the first person shoot template of UE4 to demonstrate the features of UnrealCV.
+
+<u>Download:</u>
+
+- [Win]()
+- [Linux]()
 
 ---
 
 # Guide to submit a binary
 
-<blockquote>
-Under construction
-</blockquote>
+Please read {% include doc url='plugin/package-game/' text='the doc'%} to see how to package and upload a binary.

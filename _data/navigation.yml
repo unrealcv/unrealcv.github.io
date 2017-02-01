@@ -1,8 +1,10 @@
 # main links links
 main:
-  - title: "Tutorials"
-    url: /tutorial/
-  - title: "Reference"
-    url: /reference/
+  # - title: "Tutorials"
+    # url: /tutorial/
+  # - title: "Reference"
+    # url: /reference/
+  - title: "Docs"
+    url: https://docs.unrealcv.org/
   - title: "Contact"
     url: /contact

@@ -2,11 +2,7 @@
 layout: single
 permalink: /index.html
 ---
-<blockquote class='bg-warning'>
-Update:
-</blockquote>
-
-# UnrealCV
+<!-- # UnrealCV -->
 
 UnrealCV is a project to help computer vision researchers build virtual worlds using Unreal Engine 4 (UE4). It extends UE4 with a plugin by providing:
 
@@ -39,14 +35,13 @@ Please read {% include doc url="getting-started/" text="getting started" %} to l
   How to install UnrealCV plugin into UE4.
 <!-- [Install Plugin to UE4](tutorial/plugin.html) -->
 
-- Test text
-  \- Prevent line break
-
 ## Reference
 
-- [Architecture](reference/architecture.html) - Technical Details of UnrealCV
+- {% include doc url='reference/arch/' text='Architecture' %}
+  Technical Details of UnrealCV
 
-- [Command List](reference/commands.html) - All available commands provided in UnrealCV
+- {% include doc url='reference/command/' text='Command List' %}
+  All available commands provided in UnrealCV
 
 ## Citation
 
