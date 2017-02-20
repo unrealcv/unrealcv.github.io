@@ -10,16 +10,14 @@ Here are a list of tutorials to get you familiar with UnrealCV step-by-step.
 
   The basics of using UnrealCV.
 
-
-- {% include script.html key='ipynb_generate_images' text='Generate Images' %}  
+- [Generate Images](https://github.com/unrealcv/unrealcv/blob/master/client/examples/generate-images.ipynb)
 
   Generate an image dataset with ground truth.
-
 
 - [Integrate with Faster-RCNN](/tutorial/faster_rcnn.html)
 
   Show how to use images from a video game for testing faster-RCNN.
 
-- [Install Plugin to UE4](/tutorial/plugin.html)
+- [Install Plugin to UE4](http://docs.unrealcv.org/en/latest/plugin/install/)
 
   How to install UnrealCV plugin into UE4.

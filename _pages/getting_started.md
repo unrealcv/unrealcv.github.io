@@ -1,10 +1,8 @@
 ---
 layout: single
 permalink: tutorial/getting_started.html
+title: Getting Started
 ---
-
-# Getting Started
-
 This tutorial covers the basics of using UnrealCV. It includes how to use UnrealCV commands to perform various tasks and how to use a python script to control an UnrealCV embedded game.
 
 ## 1. Download a game binary
