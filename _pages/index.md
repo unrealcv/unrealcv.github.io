@@ -2,10 +2,6 @@
 layout: single
 permalink: /index.html
 ---
-<blockquote class='bg-warning'>
-We are actively updating this website. The content is subject to change.
-</blockquote>
-
 # UnrealCV
 
 UnrealCV is a project to help computer vision researchers build virtual worlds using Unreal Engine 4 (UE4). It extends UE4 with a plugin by providing:
