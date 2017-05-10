@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact
 ---
 
-UnrealCV is an open source project created by [Weichao Qiu](http://weichaoqiu.com). It is hosted in [Github](http://github.com/unrealcv/unrealcv) and everyone is welcomed to contribute.
+UnrealCV is an open source project hosted in [Github](http://github.com/unrealcv/unrealcv) and everyone is welcomed to contribute.
 
 <div id="issue"></div>
 - If you want a new feature for your research or found any bug, please submit an issue in our [issue tracker](https://github.com/unrealcv/unrealcv/issues).
