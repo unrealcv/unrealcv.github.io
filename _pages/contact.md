@@ -21,3 +21,5 @@ UnrealCV is developed and maintained by a group of students working on computer 
 - [Tae Soo Kim](): Deep learning for transferable concepts between the real and the virtual environment
 - [Weichao Qiu](http://weichaoqiu.com): Constructing virtual worlds to train and diagnose computer vision algorithms
 - [Yi Zhang](): Algorithm diagnosis with synthetic data 
+- [Fangwei Zhong](): Reinforcement learning for visual navigation
+ 
