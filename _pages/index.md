@@ -25,6 +25,8 @@ Images generated from the technical demo <a href="reference/model_zoo.html#reali
 
 - [Integrate with Faster-RCNN](tutorial/faster_rcnn.html) - Show how to use images from a video game for testing faster-RCNN.
 
+- [Integrate with OpenAi-Gym](https://github.com/zfw1226/gym-unrealcv) - Show how to get started with installing environment, running an agent in an environment, adding a new environment and training an agent for visual navigation using reinforcement learning.
+
 - [Install Plugin to UE4](tutorial/plugin.html) - How to install UnrealCV plugin into UE4.
 
 ## Reference
