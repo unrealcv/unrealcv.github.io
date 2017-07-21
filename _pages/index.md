@@ -10,30 +10,30 @@ UnrealCV is a project to help computer vision researchers build virtual worlds u
 
 UnrealCV can be used in two ways. The first one is using a compiled game binary with UnrealCV embedded. This is as simple as running a game, no knowledge of Unreal Engine is required. The second is installing UnrealCV plugin to Unreal Engine 4 (UE4) and use the editor of UE4 to build a new virtual world.
 
-Please read [Tutorial: Getting Started](/tutorial/getting_started.html) to learn using UnrealCV.
+Please read [Tutorial: Getting Started](http://docs.unrealcv.org/en/master/tutorials/getting_started.html) to learn using UnrealCV.
 
 <center>
-<img src="images/homepage_teaser.png" alt="annotation"/>
-Images generated from the technical demo <a href="reference/model_zoo.html#realistic_rendering">RelisticRendering</a><br>
+<img src="http://unrealcv.org/images/homepage_teaser.png" alt="annotation"/>
+Images generated from the technical demo <a href="http://docs.unrealcv.org/en/master/reference/model_zoo.html#realisticrendering">RelisticRendering</a><br>
 </center>
 
 ## Tutorials
 
-- [Getting Started](tutorial/getting_started.html) - The basics of using UnrealCV, start from here.
+- [Getting Started](http://docs.unrealcv.org/en/master/tutorials/getting_started.html) - The basics of using UnrealCV, start from here.
 
-- {% include script.html key='ipynb_generate_images' text='Generate Images' %}  Generate an image dataset with ground truth.
+- [Generate an image dataset with ground truth](http://docs.unrealcv.org/en/master/tutorials/generate_images_tutorial.html) - An iPython notebook showing how to generate an image dataset with rich ground truth from a virtual scene.
 
-- [Integrate with Faster-RCNN](tutorial/faster_rcnn.html) - Show how to use images from a video game for testing faster-RCNN.
+- [Integrate with Faster-RCNN](http://docs.unrealcv.org/en/master/tutorials/faster_rcnn.html) - Show how to use images from a video game for testing faster-RCNN.
 
 - [Integrate with OpenAI Gym](https://github.com/zfw1226/gym-unrealcv) - Show how to get started with OpenAI Gym interface for reinforcement learning tasks.
 
-- [Install Plugin to UE4](tutorial/plugin.html) - How to install UnrealCV plugin into UE4.
+- [Install Plugin to UE4](http://docs.unrealcv.org/en/master/plugin/install.html) - How to install UnrealCV plugin into UE4.
 
 ## Reference
 
-- [Architecture](reference/architecture.html) - Technical Details of UnrealCV
+- [Architecture](http://docs.unrealcv.org/en/master/reference/architecture.html) - Technical Details of UnrealCV
 
-- [Command List](reference/commands.html) - All available commands provided in UnrealCV
+- [Command List](http://docs.unrealcv.org/en/master/reference/commands.html) - All available commands provided in UnrealCV
 
 ## Citation
 
