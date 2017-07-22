@@ -19,7 +19,7 @@ The first video includes various 3D scenes that can be used in UnrealCV, includi
 
 The second video demonstrates various applications of UnrealCV, including: 1) Object mask generation in a virtual supermarket,  2) Bounding box generation and running a detection algorithm in a virtual scene, 3) Controlling hazardous factors to diagnose the robustness of stereo depth estimation algorithms, 4) Indoor navigation and object interaction.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/veoreh3OYBg" frameborder="0" allowfullscreen></iframe>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/8kBbTrhsSmQ?list=PLOnBc7A9ZnwP0_mR2upuSE7jzxzQm2n5k" frameborder="0" allowfullscreen></iframe>
 
 <div id="demo"></div>
 
