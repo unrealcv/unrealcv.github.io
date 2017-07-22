@@ -6,31 +6,18 @@ title: UnrealCV - CVPR 17 Demo
 
 Welcome to the CVPR17 demo page of UnrealCV. This page contains what you saw in our demo station. Our demo time is 07/22 Morning 10:30 - 12:30 and Afternoon 15:00 - 17:00. Please share this link with your friends if you like our demo.
 
-Our demo includes two parts, [pre-recorded videos(#video) and [live-demo](#demo)
+Our demo includes two parts, [pre-recorded videos](#video) and [live-demo](#demo)
 
 <div id="video"></div>
 
 ## Video
 
-The first video includes the various 3D scenes, including:
-
-- A static virtual scene, RealisticRendering
-
-- A dynamic virtual scene, Matinee
-
-- A virtual supermarket in which grocery items are randomly placed for training
-
-- More virtual scenes that have been used in the research
+The first video includes various 3D scenes that can be used in UnrealCV, including: 1) A static virtual scene, RealisticRendering, 2) A dynamic virtual scene, Matinee, 3) A virtual supermarket in which grocery items are randomly placed for training, 4) More virtual scenes that have been used in the research
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-Hsw8BFj2PU?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
-The second video demonstrates various applications of UnrealCV
-
-- Object mask generation in a virtual supermarket
-- Stereo depth estimation in a virtual scene
-- Indoor navigation and object interaction
-- Bounding box generation and running a detection algorithm in a virtual scene.
+The second video demonstrates various applications of UnrealCV, including: 1) Object mask generation in a virtual supermarket, 2) Stereo depth estimation in a virtual scene, 3) Indoor navigation and object interaction , 4) Bounding box generation and running a detection algorithm in a virtual scene.
 
 <div id="demo"></div>
 
