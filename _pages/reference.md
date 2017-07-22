@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Reference
-permalink: /reference/index.html
+permalink: /reference
 ---
 - [Architecture](http://docs.unrealcv.org/en/master/reference/architecture.html) Explain the architecture of UnrealCV.
 

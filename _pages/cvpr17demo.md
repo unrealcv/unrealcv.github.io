@@ -1,13 +1,10 @@
 ---
 layout: single
 permalink: /cvpr17demo
+title: UnrealCV - CVPR 17 Demo
 ---
 
-# UnrealCV - CVPR 17 Demo
-
-Welcome to the CVPR17 demo page of UnrealCV. This page contains what you saw in our demo station.
-
-Our demo includes video and live-demo.
+Welcome to the CVPR17 demo page of UnrealCV. This page contains what you saw in our demo station. Our demo time is 07/22 Morning 10:30 - 12:30 and Afternoon 15:00 - 17:00. Please share this link with your friends if you like our demo.
 
 The videos and live demos are within these categories
 
