@@ -12,17 +12,7 @@ Our demo includes two parts, [pre-recorded videos](#video) and [live-demo](#demo
 
 ## Video
 
-The first video includes various 3D scenes that can be used in UnrealCV, including: 
-
-- A static virtual scene, RealisticRendering, 
-- A dynamic virtual scene, Matinee, 
-- A virtual supermarket in which grocery items are randomly placed for training, 
-- More virtual scenes that have been used in the research
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-Hsw8BFj2PU?rel=0" frameborder="0" allowfullscreen></iframe>
-
-
-The second video demonstrates various applications of UnrealCV, including: 
+The first video demonstrates various applications of UnrealCV, including: 
 
 - Object mask generation in a virtual supermarket,  
 - Bounding box generation and running a detection algorithm in a virtual scene, 
@@ -32,6 +22,18 @@ The second video demonstrates various applications of UnrealCV, including:
 <iframe width="854" height="480" src="https://www.youtube.com/embed/8kBbTrhsSmQ?list=PLOnBc7A9ZnwP0_mR2upuSE7jzxzQm2n5k" frameborder="0" allowfullscreen></iframe>
 
 <div id="demo"></div>
+
+
+The second video includes various 3D scenes that can be used in UnrealCV, including: 
+
+- A static virtual scene, RealisticRendering, 
+- A dynamic virtual scene, Matinee, 
+- A virtual supermarket in which grocery items are randomly placed for training, 
+- More virtual scenes that have been used in the research
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-Hsw8BFj2PU?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
 
 ## Live demo
 
