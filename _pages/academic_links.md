@@ -3,7 +3,7 @@ layout: single
 title: Links for CVPR17 demo
 permalink: workshop_links.html
 redirect_to:
-  - https://unrealcv.org/cvpr17demo
+  - http://unrealcv.org/cvpr17demo
 ---
 - Download our poster [download](http://weichaoqiu.com/unrealcv/VARVAI_poster.pdf)
 - UnrealCV project page [link](https://unrealcv.github.io)
