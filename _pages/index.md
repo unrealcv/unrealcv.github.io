@@ -25,9 +25,10 @@ Images generated from the technical demo <a href="http://docs.unrealcv.org/en/ma
 
 - [Integrate with Faster-RCNN](http://docs.unrealcv.org/en/master/tutorials/faster_rcnn.html) - Show how to use images from a video game for testing faster-RCNN.
 
-- [Integrate with OpenAI Gym](https://github.com/zfw1226/gym-unrealcv) - Show how to get started with OpenAI Gym interface for reinforcement learning tasks.
-
 - [Install Plugin to UE4](http://docs.unrealcv.org/en/master/plugin/install.html) - How to install UnrealCV plugin into UE4.
+
+- [Integrate with OpenAI Gym](https://github.com/zfw1226/gym-unrealcv) - How to combine UnrealCV and OpenAI Gym interface for reinforcement learning.
+
 
 ## Reference
 
