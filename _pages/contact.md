@@ -4,7 +4,9 @@ title: Contact
 permalink: /contact
 ---
 
-UnrealCV is an open source project created by students of Johns Hopkins University and Peking University. The development of it is under the supervision of Prof. Alan Yuille and Prof. Yizhou Wang. UnrealCV is hosted in [Github](http://github.com/unrealcv/unrealcv) and everyone is welcomed to contribute.
+UnrealCV is an open source project created by students of Johns Hopkins University and Peking University. The development of it is under the supervision of Prof. Alan Yuille and Prof. Yizhou Wang. 
+
+UnrealCV is hosted in [Github](http://github.com/unrealcv/unrealcv) and everyone is welcomed to contribute.
 
 
 <div id="issue"></div>
@@ -25,6 +27,6 @@ UnrealCV is developed and maintained by a group of students working on computer 
 - [Weichao Qiu](http://weichaoqiu.com): Constructing virtual worlds to train and diagnose computer vision algorithms
 - [Yi Zhang](): Algorithm diagnosis with synthetic data 
  
- # Email Us
+## Email Us
  - Weichao Qiu: qiuwch@gmail.com
  - Fangwei Zhong: zfw1226@gmail.com
