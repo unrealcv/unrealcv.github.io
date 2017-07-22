@@ -1,7 +1,9 @@
 ---
 layout: single
 title: Compiled Games
-permalink: /reference/model_zoo.html
+permalink: /model_zoo
+redirect_to:
+  - http://docs.unrealcv.org/en/master/reference/model_zoo.html
 ---
 {% assign bin = site.data.binary %}
 We provide compiled virtual worlds to play with. All the digital contents belong to the original author. If the program crash for any reason, you can report [an issue](https://github.com/unrealcv/unrealcv/issues).

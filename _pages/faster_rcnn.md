@@ -2,6 +2,8 @@
 layout: single
 title: Integrate UnrealCV with faster RCNN
 permalink: /tutorial/faster_rcnn
+redirect_to:
+  - http://docs.unrealcv.org/en/master/tutorials/faster_rcnn.html
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iGGNAkaxVyQ" frameborder="0" allowfullscreen></iframe>
 
