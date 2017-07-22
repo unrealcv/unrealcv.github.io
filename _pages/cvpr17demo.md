@@ -49,7 +49,7 @@ These papers use UnrealCV as a tool in the research
 
 More description about UnrealCV can be found in
 
-Qiu, Weichao, and Alan Yuille. "Unrealcv: Connecting computer vision to unreal engine." ECCV 2016 VARVAI workshop
+Qiu, Weichao, and Alan Yuille. "UnrealCV: Connecting Computer Vision to Unreal Engine." ECCV 2016 VARVAI workshop
 
 See more papers and projects which utilize synthetic images here. https://github.com/unrealcv/synthetic-computer-vision
 
