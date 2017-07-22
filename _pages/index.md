@@ -36,6 +36,8 @@ Images generated from the technical demo <a href="http://docs.unrealcv.org/en/ma
 
 - [Command List](http://docs.unrealcv.org/en/master/reference/commands.html) - All available commands provided in UnrealCV
 
+- [Model Zoo](/model_zoo) A list of compiled games with UnrealCV integrated
+
 ## Citation
 
 If you found this project useful, please consider citing our paper
