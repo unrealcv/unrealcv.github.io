@@ -6,25 +6,26 @@ title: UnrealCV - CVPR 17 Demo
 
 Welcome to the CVPR17 demo page of UnrealCV. This page contains what you saw in our demo station. Our demo time is 07/22 Morning 10:30 - 12:30 and Afternoon 15:00 - 17:00. Please share this link with your friends if you like our demo.
 
-The videos and live demos are within these categories
-
-- Generic:
-- Detection, segmentation:
-- Reinforcement learning:
-
 ## Video
 
 The first video includes the various 3D scenes.
 
-- A virtual supermarket created using UE4
-- Matinee
+Virtual worlds
+
+- A static virtual scene, RealisticRendering
+- A dynamic virtual scene, Matinee
+- A virtual supermarket in which grocery items are randomly placed for training
+-
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-Hsw8BFj2PU?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
+The second video demonstrate various applications of UnrealCV
 
-- Faster RCNN
-- Bounding Box Generation
+- Object mask generation in a virtual supermarket
 - Stereo depth estimation in a virtual scene
 - Indoor navigation and object interaction
+- Bounding Box Generation and running a detection algorithm in a virtual scene.
 
 ## Live demo
 
@@ -32,10 +33,13 @@ The first video includes the various 3D scenes.
 
 Move a virtual camera in a virtual room, see how well the detection algorithm works. Also demonstrate the ground truth that can be produced by a virtual scene using UnrealCV.
 
-You can reproduce this demo with
+You can reproduce this demo with two simple steps
+
+1. Download the RealisticRendering virtual scene from our model zoo http://unrealcv.org/model_zoo
+2. Follow the tutorial in this page http://docs.unrealcv.org/en/master/tutorials/faster_rcnn.html
 
 - Virtual supermarket project
-- A virtual robo arm
+- A virtual robotics arm
 
 ## Related papers
 
