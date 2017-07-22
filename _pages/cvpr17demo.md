@@ -8,44 +8,50 @@ Welcome to the CVPR17 demo page of UnrealCV. This page contains what you saw in 
 
 ## Video
 
-The first video includes the various 3D scenes.
-
-Virtual worlds
+The first video includes the various 3D scenes, including:
 
 - A static virtual scene, RealisticRendering
 - A dynamic virtual scene, Matinee
 - A virtual supermarket in which grocery items are randomly placed for training
--
+- More virtual scenes that have been used in the research
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-Hsw8BFj2PU?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
-The second video demonstrate various applications of UnrealCV
+The second video demonstrates various applications of UnrealCV
 
 - Object mask generation in a virtual supermarket
 - Stereo depth estimation in a virtual scene
 - Indoor navigation and object interaction
-- Bounding Box Generation and running a detection algorithm in a virtual scene.
+- Bounding box generation and running a detection algorithm in a virtual scene.
 
 ## Live demo
 
 - Faster-RCNN detection demo
 
-Move a virtual camera in a virtual room, see how well the detection algorithm works. Also demonstrate the ground truth that can be produced by a virtual scene using UnrealCV.
+    Move a virtual camera in a virtual room, see how well the detection algorithm works. Also demonstrate the ground truth that can be produced by a virtual scene using UnrealCV.
 
-You can reproduce this demo with two simple steps
+    You can reproduce this demo with two simple steps
 
-1. Download the RealisticRendering virtual scene from our model zoo http://unrealcv.org/model_zoo
-2. Follow the tutorial in this page http://docs.unrealcv.org/en/master/tutorials/faster_rcnn.html
+    1. Download the RealisticRendering virtual scene from our model zoo http://unrealcv.org/model_zoo
+    2. Follow the tutorial in this page http://docs.unrealcv.org/en/master/tutorials/faster_rcnn.html
 
-- Virtual supermarket project
-- A virtual robotics arm
+
+- Virtual supermarket demo
+
+- A virtual toy-robotics arm
 
 ## Related papers
+
+These papers use UnrealCV as a tool in the research
 
 - Qiao, Siyuan, Wei Shen, Weichao Qiu, Chenxi Liu, and Alan Yuille. "ScaleNet: Guiding Object Proposal Generation in Supermarkets and Beyond." ICCV17
 - Roberts, Mike, Anh Truong, Debadeepta Dey, Sudipta Sinha, Ashish Kapoor, Neel Joshi, and Pat Hanrahan. "Submodular Trajectory Optimization for Aerial 3D Scanning." ICCV17
 - Zhang, Yi, Weichao Qiu, Qi Chen, Xiaolin Hu, and Alan Yuille. "Unrealstereo: A synthetic dataset for analyzing stereo vision." arXiv preprint arXiv:1612.04647 (2016).
+
+More description about UnrealCV can be found in
+
+Qiu, Weichao, and Alan Yuille. "Unrealcv: Connecting computer vision to unreal engine." ECCV 2016 VARVAI workshop
 
 See more papers and projects which utilize synthetic images here. https://github.com/unrealcv/synthetic-computer-vision
 
