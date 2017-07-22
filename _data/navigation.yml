@@ -1,9 +1,9 @@
 # main links links
 main:
   - title: "Tutorials"
-    url: /tutorial/
+    url: /tutorial
   - title: "Reference"
-    url: /reference/
+    url: /reference
   - title: "Contact"
     url: /contact
   - title: "Docs"
