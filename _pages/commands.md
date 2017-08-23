@@ -1,6 +1,8 @@
 ---
 layout: single
-permalink: /reference/commands.html
+permalink: /commands.html
+redirect_to:
+  - http://docs.unrealcv.org/en/master/reference/commands.html
 ---
 # The command system
 <!-- Better help system -->
