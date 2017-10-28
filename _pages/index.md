@@ -41,7 +41,7 @@ Images generated from the technical demo <a href="http://docs.unrealcv.org/en/ma
 - [Demos](https://youtu.be/8kBbTrhsSmQ) - A demo video about applications of UnrealCV.
 ## Citation
 
-If you found this project useful, please consider citing our paper
+If you found this project useful, please consider citing [our paper](http://delivery.acm.org/10.1145/3130000/3129396/p1221-qiu.pdf?ip=172.58.35.90&id=3129396&acc=OPENTOC&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E921B4A8BE463EE8F&CFID=823507580&CFTOKEN=69953627&__acm__=1509186822_e3149ec6e0f3bddd6ee0a527fd93e6c5)
 
 ```bibtex
 @article{qiu2017unrealcv,
