@@ -2,8 +2,9 @@
 layout: single
 permalink: /index.html
 ---
+##UnrealCV
 
-UnrealCV is a project to help computer vision researchers build virtual worlds using Unreal Engine 4 (UE4). It extends UE4 with a plugin by providing:
+[UnrealCV](https://github.com/unrealcv/unrealcv) is an open source project to help computer vision researchers build virtual worlds using [Unreal Engine 4 (UE4)](https://www.unrealengine.com). It extends UE4 with a plugin by providing:
 
 1. A set of UnrealCV commands to interact with the virtual world.
 2. Communication between UE4 and an external program, such as Caffe.
@@ -36,7 +37,7 @@ Images generated from the technical demo <a href="http://docs.unrealcv.org/en/ma
 
 - [Command List](http://docs.unrealcv.org/en/master/reference/commands.html) - All available commands provided in UnrealCV
 
-- [Model Zoo](/model_zoo) A list of compiled games with UnrealCV integrated
+- [Model Zoo](http://docs.unrealcv.org/en/master/reference/model_zoo.html) A list of compiled games with UnrealCV integrated
 
 ## Citation
 
