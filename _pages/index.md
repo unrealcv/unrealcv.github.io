@@ -2,7 +2,6 @@
 layout: single
 permalink: /index.html
 ---
-# UnrealCV
 
 ## Introduction
 
