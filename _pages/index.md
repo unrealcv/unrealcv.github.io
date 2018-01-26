@@ -14,7 +14,7 @@ Please read [Tutorial: Getting Started](http://docs.unrealcv.org/en/master/tutor
 
 <center>
 <img src="http://unrealcv.org/images/homepage_teaser.png" alt="annotation"/>
-Images generated from the technical demo <a href="http://docs.unrealcv.org/en/master/reference/model_zoo.html#realisticrendering">RelisticRendering</a><br>
+Images generated from the technical demo <a href="http://docs.unrealcv.org/en/master/reference/model_zoo.html#realisticrendering">RealisticRendering</a><br>
 </center>
 
 ## Tutorials
