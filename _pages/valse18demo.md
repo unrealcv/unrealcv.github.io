@@ -21,6 +21,9 @@ The first video demonstrates **various applications of UnrealCV**, including:
 
 Click [here](http://v.youku.com/v_show/id_XMzU1MjAzMjkwOA==.html?spm=a2h0j.11185381.listitem_page1.5!2~A) to watch the video.
 
+<iframe src="//player.bilibili.com/player.html?aid=22334603&cid=36985215&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
 The second video includes **various 3D scenes** that can be used in UnrealCV, including: 
 
 - Diverse scenes,
@@ -29,8 +32,6 @@ The second video includes **various 3D scenes** that can be used in UnrealCV, in
 - Controlling the weather and the illumination.
 
 Click [here](http://v.youku.com/v_show/id_XMzU1MjEzNTM5Ng==.html?spm=a2h3j.8428770.3416059.1) to watch the video.
-
-<iframe src="//player.bilibili.com/player.html?aid=22334603&cid=36985215&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 <iframe src="//player.bilibili.com/player.html?aid=22334603&cid=36985216&page=2" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
