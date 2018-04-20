@@ -19,10 +19,7 @@ The first video demonstrates **various applications of UnrealCV**, including:
 - Controlling hazardous factors to diagnose the robustness of stereo depth estimation algorithms, 
 - Learning indoor navigation, robot manipulation and active object tracking via reinforcement learning. 
 
-<iframe width="854" height="480" src="http://player.youku.com/player.php/sid/XMzU1MjAzMjkwOA==/v.swf" frameborder="0" allowfullscreen></iframe>
-
-<embed src='http://player.youku.com/player.php/sid/XMzU1MjAzMjkwOA==/v.swf' allowFullScreen='true' quality='high' width='480' height='400' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
-
+<iframe height=854 width=480 src='http://player.youku.com/embed/XMzU1MjAzMjkwOA==' frameborder=0 'allowfullscreen'></iframe>
 
 The second video includes **various 3D scenes** that can be used in UnrealCV, including: 
 
