@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /valse18demo
+permalink: /valse18demo/
 title: UnrealCV - VALSE 18 Demo
 ---
 
