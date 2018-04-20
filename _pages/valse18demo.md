@@ -19,7 +19,8 @@ The first video demonstrates **various applications of UnrealCV**, including:
 - Controlling hazardous factors to diagnose the robustness of stereo depth estimation algorithms, 
 - Learning indoor navigation, robot manipulation and active object tracking via reinforcement learning. 
 
-<iframe height=854 width=480 src='http://player.youku.com/embed/XMzU1MjAzMjkwOA==' frameborder=0 'allowfullscreen'></iframe>
+<iframe height=498 width=510 src='http://player.youku.com/embed/XMzU1MjAzMjkwOA==' frameborder=0 'allowfullscreen'></iframe>
+
 
 The second video includes **various 3D scenes** that can be used in UnrealCV, including: 
 
@@ -42,7 +43,7 @@ These papers use UnrealCV as a tool in the research
 - Zhang Yi, Weichao Qiu, Qi Chen, Xiaolin Hu, and Alan Yuille. "Unrealstereo: A synthetic dataset for analyzing stereo vision." arXiv preprint arXiv:1612.04647 (2016).
 - Wenhan Luo, Peng Sun, Fangwei Zhong, Wei Liu, Yizhou Wang, "End-to-end Active Object Tracking via Reinforcement Learning." arXiv preprint arXiv
 
-More description about UnrealCV can be found in
+**More description about UnrealCV can be found in:**
 
 Our homepage: [unrealcv.org](http://unrealcv.org)
 
