@@ -4,7 +4,7 @@ permalink: /valse18demo/
 title: UnrealCV - VALSE 18 Demo
 ---
 
-Welcome to the VALSE18 demo page of UnrealCV. This page contains what you saw in our demo station. Our demo includes two parts, [pre-recorded videos](#video) and [live-demo](#demo)
+Welcome to the VALSE18 demo page of UnrealCV. This page contains what you saw in our demo station.
 
 <div id="video"></div>
 
