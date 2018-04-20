@@ -21,6 +21,7 @@ The first video demonstrates **various applications of UnrealCV**, including:
 
 <iframe height=498 width=510 src='http://player.youku.com/embed/XMzU1MjAzMjkwOA==' frameborder=0 'allowfullscreen'></iframe>
 
+<embed src='http://player.youku.com/player.php/sid/XMzU1MjAzMjkwOA==/v.swf' allowFullScreen='true' quality='high' width='480' height='400' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
 
 The second video includes **various 3D scenes** that can be used in UnrealCV, including: 
 
