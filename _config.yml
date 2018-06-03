@@ -12,7 +12,7 @@ title: UnrealCV
 title_separator          : "-"
 name                     : "UnrealCV"
 description              : ""
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://unrealcv.org"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 # baseurl: "/unrealcv" # the subpath of your site, e.g. /blog/
 gh_repo                  :

@@ -12,7 +12,7 @@ Please follow the getting started tutorial http://unrealcv.org/tutorial/getting_
 
 Model Zoo ： http://docs.unrealcv.org/en/develop/reference/model_zoo.html 
 
-Appliactions:
+Applications:
 
 Integration with an Faster-Rcnn: http://docs.unrealcv.org/en/develop/tutorials/faster_rcnn.html
 
