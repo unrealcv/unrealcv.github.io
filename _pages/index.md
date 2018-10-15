@@ -54,6 +54,6 @@ If you found this project useful, please consider citing [our paper](https://dl.
 
 ## Contact
 
-UnrealCV is an open-source project created by students from Johns Hopkins University and Peking University under the supervision of [Prof. Alan Yuille](https://ccvl.jhu.edu/team/) and [Prof. Yizhou Wang](http://www.idm.pku.edu.cn/staff/wangyizhou/). It is maintained by the UnrealCV team, see [the team member list](contact.html).
+UnrealCV is an open-source project created by students from Johns Hopkins University and Peking University under the supervision of [Prof. Alan Yuille](https://ccvl.jhu.edu/team/) and [Prof. Yizhou Wang](http://www.idm.pku.edu.cn/staff/wangyizhou/). The team thanks  [NSF Expedition in Computing, Visual Cortex On Silicon](http://www.cse.psu.edu/research/visualcortexonsilicon.expedition/) for supporting this work. It is maintained by the UnrealCV team, see [the team member list](contact.html).
 
 If you have any suggestion or interested in using UnrealCV, please [contact us](contact.html).
