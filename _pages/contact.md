@@ -21,11 +21,12 @@ UnrealCV is hosted in [Github](http://github.com/unrealcv/unrealcv) and everyone
 
 UnrealCV is developed and maintained by a group of students working on computer vision (sort alphabetically).
 
-- [Fangwei Zhong](https://github.com/zfw1226): Reinforcement learning for visual navigation
+- [Fangwei Zhong](https://github.com/zfw1226): Constructing OpenAI Gym interface for reinforcement learning
 - [Siyuan Qiao](http://www.cs.jhu.edu/~syqiao/): Stochastic virtual scene generation
-- [Tae Soo Kim](): Deep learning for transferable concepts between the real and the virtual environment
+- [Tae Soo Kim](https://taesoo-kim.github.io/): Deep learning for transferable concepts between the real and the virtual environment
 - [Weichao Qiu](http://weichaoqiu.com): Constructing virtual worlds to train and diagnose computer vision algorithms
-- [Yi Zhang](): Algorithm diagnosis with synthetic data 
+- [Yi Zhang](https://edz-o.github.io/): Algorithm diagnosis with synthetic data 
+- [Hai Ci](https://haici.cc/): Optimizing the communication pipeline between UE4 and python
  
 ## Email Us
  - Weichao Qiu: qiuwch@gmail.com
