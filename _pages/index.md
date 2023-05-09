@@ -17,6 +17,9 @@ Please read [Tutorial: Getting Started](http://docs.unrealcv.org/en/master/tutor
 Images generated from the technical demo <a href="http://docs.unrealcv.org/en/master/reference/model_zoo.html#realisticrendering">RealisticRendering</a><br>
 </center>
 
+## News
+- 2023.05 👏 We release a [paper list](https://github.com/unrealcv/papers-with-unrealcv) to show how UnrealCV is used in research. Welcome to add your paper to this list!
+
 ## Tutorials
 
 - [Getting Started](http://docs.unrealcv.org/en/master/tutorials/getting_started.html) - The basics of using UnrealCV, start from here.
@@ -29,7 +32,6 @@ Images generated from the technical demo <a href="http://docs.unrealcv.org/en/ma
 
 - [Integrate with OpenAI Gym](https://github.com/zfw1226/gym-unrealcv) - How to combine UnrealCV and OpenAI Gym interface for reinforcement learning.
 
-
 ## Reference
 
 - [Architecture](http://docs.unrealcv.org/en/master/reference/architecture.html) - Technical Details of UnrealCV
@@ -39,6 +41,8 @@ Images generated from the technical demo <a href="http://docs.unrealcv.org/en/ma
 - [Model Zoo](http://docs.unrealcv.org/en/master/reference/model_zoo.html) - A list of compiled games with UnrealCV integrated
 
 - [Demos](https://youtu.be/8kBbTrhsSmQ) - A demo video about applications of UnrealCV.
+
+- [Paper List](https://github.com/unrealcv/papers-with-unrealcv) - A curated list of papers using UnrealCV.
 
 ## Citation
 
