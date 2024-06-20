@@ -18,6 +18,8 @@ Images generated from the technical demo <a href="http://docs.unrealcv.org/en/ma
 </center>
 
 ## News
+- 2024.06 👏 UnrealCV Client has updated to 1.1.0 with easy-to-use [Python APIs](https://github.com/unrealcv/unrealcv/blob/5.2/client/python/unrealcv/api.py) and [launcher](https://github.com/unrealcv/unrealcv/blob/5.2/client/python/unrealcv/launcher.py)! You can pip install the latest version.
+- 2024.06 👏 UnrealCV has supported UE 5.4! You can download the [5.2 branch](https://github.com/unrealcv/unrealcv/tree/5.2) and play with it. Thanks to [russkel](https://github.com/russkel) for the contributions.
 - 2024.03 👏 UnrealCV has supported UE 5.2! You can download the [5.2 branch](https://github.com/unrealcv/unrealcv/tree/5.2) and play with it. Thanks to [mehmetcanakbay](https://github.com/mehmetcanakbay) for the contributions.
 - 2023.05 👏 We release a [paper list](https://github.com/unrealcv/papers-with-unrealcv) to show how UnrealCV is used in research. Welcome to add your paper to this list!
 
