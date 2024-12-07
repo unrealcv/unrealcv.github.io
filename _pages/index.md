@@ -6,9 +6,9 @@ permalink: /index.html
 [UnrealCV](https://github.com/unrealcv/unrealcv) is an open source project to help computer vision researchers build virtual worlds using [Unreal Engine 4 (UE4)](https://www.unrealengine.com). It extends UE4 with a plugin by providing:
 
 1. A set of UnrealCV commands to interact with the virtual world.
-2. Communication between UE4 and an external program, such as Caffe.
+2. Communication between UE4/5 and an external program, such as Pytorch.
 
-UnrealCV can be used in two ways. The first one is using a compiled game binary with UnrealCV embedded. This is as simple as running a game, no knowledge of Unreal Engine is required. The second is installing UnrealCV plugin to Unreal Engine 4 (UE4) and use the editor of UE4 to build a new virtual world.
+UnrealCV can be used in two ways. The first one is using a compiled game binary with UnrealCV embedded. This is as simple as running a game, no knowledge of Unreal Engine is required. The second is installing UnrealCV plugin to Unreal Engine (UE4/5) and use the editor of UE to build a new virtual world.
 
 Please read [Tutorial: Getting Started](http://docs.unrealcv.org/en/master/tutorials/getting_started.html) to learn using UnrealCV.
 
@@ -31,7 +31,7 @@ Images generated from the technical demo <a href="http://docs.unrealcv.org/en/ma
 
 - [Integrate with Faster-RCNN](http://docs.unrealcv.org/en/master/tutorials/faster_rcnn.html) - Show how to use images from a video game for testing faster-RCNN.
 
-- [Install Plugin to UE4](http://docs.unrealcv.org/en/master/plugin/install.html) - How to install UnrealCV plugin into UE4.
+- [Install Plugin to UE4/5](http://docs.unrealcv.org/en/master/plugin/install.html) - How to install UnrealCV plugin into UE4/5.
 
 - [Integrate with OpenAI Gym](https://github.com/zfw1226/gym-unrealcv) - How to combine UnrealCV and OpenAI Gym interface for reinforcement learning.
 
