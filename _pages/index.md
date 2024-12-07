@@ -3,7 +3,7 @@ layout: single
 permalink: /index.html
 ---
 
-[UnrealCV](https://github.com/unrealcv/unrealcv) is an open source project to help computer vision researchers build virtual worlds using [Unreal Engine 4 (UE4)](https://www.unrealengine.com). It extends UE4 with a plugin by providing:
+[UnrealCV](https://github.com/unrealcv/unrealcv) is an open source project to help computer vision researchers build virtual worlds using [Unreal Engine (UE)](https://www.unrealengine.com). It extends UE4/5 with a plugin by providing:
 
 1. A set of UnrealCV commands to interact with the virtual world.
 2. Communication between UE4/5 and an external program, such as Pytorch.
