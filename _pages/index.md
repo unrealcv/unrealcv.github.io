@@ -18,6 +18,7 @@ Images generated from the technical demo <a href="http://docs.unrealcv.org/en/ma
 </center>
 
 ## News
+- 2024.12 👏 [UnrealZoo](http://unrealzoo.site/) preview has been released! UnrealZoo is a collection of 100+ virtual worlds with UnrealCV integrated for embodied AI.
 - 2024.06 👏 UnrealCV Client has updated to 1.1.0 with easy-to-use [Python APIs](https://github.com/unrealcv/unrealcv/blob/5.2/client/python/unrealcv/api.py) and [launcher](https://github.com/unrealcv/unrealcv/blob/5.2/client/python/unrealcv/launcher.py)! You can pip install the latest version.
 - 2024.06 👏 UnrealCV has supported UE 5.4! You can download the [5.2 branch](https://github.com/unrealcv/unrealcv/tree/5.2) and play with it. Thanks to [russkel](https://github.com/russkel) for the contributions.
 - 2024.03 👏 UnrealCV has supported UE 5.2! You can download the [5.2 branch](https://github.com/unrealcv/unrealcv/tree/5.2) and play with it. Thanks to [mehmetcanakbay](https://github.com/mehmetcanakbay) for the contributions.
@@ -37,11 +38,13 @@ Images generated from the technical demo <a href="http://docs.unrealcv.org/en/ma
 
 ## Reference
 
-- [Architecture](http://docs.unrealcv.org/en/master/reference/architecture.html) - Technical Details of UnrealCV
+- [Architecture](http://docs.unrealcv.org/en/master/reference/architecture.html) - Technical Details of UnrealCV.
 
-- [Command List](http://docs.unrealcv.org/en/master/reference/commands.html) - All available commands provided in UnrealCV
+- [Command List](http://docs.unrealcv.org/en/master/reference/commands.html) - All available commands provided in UnrealCV.
 
-- [Model Zoo](http://docs.unrealcv.org/en/master/reference/model_zoo.html) - A list of compiled games with UnrealCV integrated
+- [Model Zoo](http://docs.unrealcv.org/en/master/reference/model_zoo.html) - A list of compiled games with UnrealCV integrated.
+
+- [UnrealZoo](http://unrealzoo.site) - A large-scale collection of compiled virtual worlds and playable entities.
 
 - [Demos](https://youtu.be/8kBbTrhsSmQ) - A demo video about applications of UnrealCV.
 
