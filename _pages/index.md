@@ -18,6 +18,8 @@ Images generated from the technical demo <a href="http://docs.unrealcv.org/en/ma
 </center>
 
 ## News
+- 2025.10 👏 The full release of [UnrealZoo](https://github.com/UnrealZoo/unrealzoo-gym) binaries is now released! Access 100+ virtual environments ready-to-use with UnrealCV integration.
+- 2025.09 👏 UnrealCV( [5.2 branch](https://github.com/unrealcv/unrealcv/tree/5.2)) has supported UE 5.5 and 5.6!
 - 2024.12 👏 [UnrealZoo](http://unrealzoo.site/) preview has been released! UnrealZoo is a collection of 100+ virtual worlds with UnrealCV integrated for embodied AI.
 - 2024.06 👏 UnrealCV Client has updated to 1.1.0 with easy-to-use [Python APIs](https://github.com/unrealcv/unrealcv/blob/5.2/client/python/unrealcv/api.py) and [launcher](https://github.com/unrealcv/unrealcv/blob/5.2/client/python/unrealcv/launcher.py)! You can pip install the latest version.
 - 2024.06 👏 UnrealCV has supported UE 5.4! You can download the [5.2 branch](https://github.com/unrealcv/unrealcv/tree/5.2) and play with it. Thanks to [russkel](https://github.com/russkel) for the contributions.
